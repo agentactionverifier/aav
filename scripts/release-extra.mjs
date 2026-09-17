@@ -5,7 +5,9 @@ import { execute } from './protected-flow.mjs';
 const repo=dirname(dirname(fileURLToPath(import.meta.url)));
 const report=JSON.parse(readFileSync(join(repo,'certification/clean-room.json'),'utf8'));
 const app=join(report.root,'app');
-for(const name of ['protocol','core','verifier','gateway','storage-sqlite','mcp','cli'])if(!realpathSync(join(app,'node_modules/@agentactionverifier',name)).startsWith(app+sep))throw Error('Resolution escapes packed clean room');
+// Both sides must be canonical: macOS temporary roots can traverse an OS alias.
+const canonicalApp=realpathSync(app);
+for(const name of ['protocol','core','verifier','gateway','storage-sqlite','mcp','cli'])if(!realpathSync(join(app,'node_modules/@agentactionverifier',name)).startsWith(canonicalApp+sep))throw Error('Resolution escapes packed clean room');
 let test=readFileSync(join(repo,'packages/mcp/test/mcp-e2e.test.mjs'),'utf8').replace("'../dist/index.js'","'@agentactionverifier/mcp'");
 test=test.replace("secret='mcp-secret-never-leak'","secret='AAV_RELEASE_CANARY_'+(await import('node:crypto')).randomBytes(24).toString('hex'),counter=join(dir,'upstream-count.txt'),count=()=>{try{return readFileSync(counter,'utf8').split(String.fromCharCode(10)).filter(Boolean).length;}catch{return 0;}}");
 test=test.replaceAll('args:[fixture]',"args:[fixture,'--count-file',counter]");
