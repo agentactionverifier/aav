@@ -1,0 +1,13 @@
+AAV — Agent Action Verifier
+
+Copyright owner: MARRERO CONSULTORES SAS DE CV
+Owner identity confirmed by the explicit release instruction. This attribution
+applies to AAV, not third-party dependency copyrights. Final legal review remains
+pending; no individual assignment or other corporate facts are asserted.
+Dependency license texts are inventoried under third-party-licenses/ and
+THIRD_PARTY_LICENSES.md; see LEGAL-RELEASE-REVIEW.md. No legal approval is implied.
+
+The technical scan found no upstream NOTICE files in the installed production
+dependency closure. Production dependency LICENSE texts remain separately
+preserved; this scan does not determine legal propagation obligations.
+HUMAN_LEGAL_REVIEW_REQUIRED.

@@ -1,0 +1,56 @@
+{
+  "name": "@agentactionverifier/gateway",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "publishConfig": { "access": "public", "tag": "alpha", "registry": "https://registry.npmjs.org/" },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./network": {
+      "types": "./dist/network.d.ts",
+      "import": "./dist/network.js",
+      "default": "./dist/network.js"
+    },
+    "./credentials": {
+      "types": "./dist/credentials.d.ts",
+      "import": "./dist/credentials.js",
+      "default": "./dist/credentials.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "pnpm build && node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@agentactionverifier/core": "workspace:*",
+    "@agentactionverifier/protocol": "workspace:*",
+    "undici": "^7.29.0"
+  },
+  "devDependencies": {
+    "@agentactionverifier/storage-sqlite": "workspace:*",
+    "@agentactionverifier/verifier": "workspace:*"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "sideEffects": false,
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentactionverifier/aav.git",
+    "directory": "packages/gateway"
+  },
+  "description": "AAV Local gateway — runtime security for AI agent actions",
+  "homepage": "https://github.com/agentactionverifier/aav#readme",
+  "bugs": { "url": "https://github.com/agentactionverifier/aav/issues" }
+}

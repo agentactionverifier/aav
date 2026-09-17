@@ -1,0 +1,854 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f0c4c645-ed66-4511-98bd-53388b81b03a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-17T16:39:48.924Z",
+    "component": {
+      "type": "application",
+      "name": "aav",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "aav-candidate"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@agentactionverifier/protocol",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@agentactionverifier/core",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@agentactionverifier/verifier",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/verifier@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/verifier@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@agentactionverifier/gateway",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/gateway@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/gateway@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "undici",
+      "version": "7.29.1",
+      "bom-ref": "pkg:npm/undici@7.29.1",
+      "purl": "pkg:npm/undici@7.29.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"undici-7.29.1-LICENSE\",\"undici-7.29.1-lib__web__fetch__LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@agentactionverifier/storage-sqlite",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/storage-sqlite@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/storage-sqlite@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@agentactionverifier/mcp",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/mcp@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/mcp@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@modelcontextprotocol/client",
+      "version": "2.0.0",
+      "bom-ref": "pkg:npm/%40modelcontextprotocol/client@2.0.0",
+      "purl": "pkg:npm/%40modelcontextprotocol/client@2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"_modelcontextprotocol_client-2.0.0-LICENSE\"]"
+        },
+        {
+          "name": "aav:license-evidence-review",
+          "value": "[\"UPSTREAM_LICENSE_TRANSITION: HUMAN_LEGAL_REVIEW_REQUIRED\",\"APACHE_TEXT_OR_REFERENCE_BEYOND_METADATA: HUMAN_LEGAL_REVIEW_REQUIRED\",\"CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "bom-ref": "pkg:npm/cross-spawn@7.0.6",
+      "purl": "pkg:npm/cross-spawn@7.0.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"cross-spawn-7.0.6-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "path-key",
+      "version": "3.1.1",
+      "bom-ref": "pkg:npm/path-key@3.1.1",
+      "purl": "pkg:npm/path-key@3.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"path-key-3.1.1-license\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "bom-ref": "pkg:npm/shebang-command@2.0.0",
+      "purl": "pkg:npm/shebang-command@2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"shebang-command-2.0.0-license\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "bom-ref": "pkg:npm/shebang-regex@3.0.0",
+      "purl": "pkg:npm/shebang-regex@3.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"shebang-regex-3.0.0-license\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "which",
+      "version": "2.0.2",
+      "bom-ref": "pkg:npm/which@2.0.2",
+      "purl": "pkg:npm/which@2.0.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"which-2.0.2-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "isexe",
+      "version": "2.0.0",
+      "bom-ref": "pkg:npm/isexe@2.0.0",
+      "purl": "pkg:npm/isexe@2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"isexe-2.0.0-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "eventsource",
+      "version": "3.0.7",
+      "bom-ref": "pkg:npm/eventsource@3.0.7",
+      "purl": "pkg:npm/eventsource@3.0.7",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"eventsource-3.0.7-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "eventsource-parser",
+      "version": "3.1.1",
+      "bom-ref": "pkg:npm/eventsource-parser@3.1.1",
+      "purl": "pkg:npm/eventsource-parser@3.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"eventsource-parser-3.1.1-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jose",
+      "version": "6.2.12",
+      "bom-ref": "pkg:npm/jose@6.2.12",
+      "purl": "pkg:npm/jose@6.2.12",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"jose-6.2.12-LICENSE.md\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkce-challenge",
+      "version": "5.0.1",
+      "bom-ref": "pkg:npm/pkce-challenge@5.0.1",
+      "purl": "pkg:npm/pkce-challenge@5.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"pkce-challenge-5.0.1-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "4.6.5",
+      "bom-ref": "pkg:npm/zod@4.6.5",
+      "purl": "pkg:npm/zod@4.6.5",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"zod-4.6.5-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@modelcontextprotocol/core",
+      "version": "2.0.0",
+      "bom-ref": "pkg:npm/%40modelcontextprotocol/core@2.0.0",
+      "purl": "pkg:npm/%40modelcontextprotocol/core@2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"_modelcontextprotocol_core-2.0.0-LICENSE\"]"
+        },
+        {
+          "name": "aav:license-evidence-review",
+          "value": "[\"UPSTREAM_LICENSE_TRANSITION: HUMAN_LEGAL_REVIEW_REQUIRED\",\"APACHE_TEXT_OR_REFERENCE_BEYOND_METADATA: HUMAN_LEGAL_REVIEW_REQUIRED\",\"CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@modelcontextprotocol/server",
+      "version": "2.0.0",
+      "bom-ref": "pkg:npm/%40modelcontextprotocol/server@2.0.0",
+      "purl": "pkg:npm/%40modelcontextprotocol/server@2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"_modelcontextprotocol_server-2.0.0-LICENSE\"]"
+        },
+        {
+          "name": "aav:license-evidence-review",
+          "value": "[\"UPSTREAM_LICENSE_TRANSITION: HUMAN_LEGAL_REVIEW_REQUIRED\",\"APACHE_TEXT_OR_REFERENCE_BEYOND_METADATA: HUMAN_LEGAL_REVIEW_REQUIRED\",\"CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@agentactionverifier/cli",
+      "version": "0.1.0-alpha.0",
+      "bom-ref": "pkg:npm/%40agentactionverifier/cli@0.1.0-alpha.0",
+      "purl": "pkg:npm/%40agentactionverifier/cli@0.1.0-alpha.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "22.19.11",
+      "bom-ref": "pkg:npm/%40types/node@22.19.11",
+      "purl": "pkg:npm/%40types/node@22.19.11",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"_types_node-22.19.11-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "undici-types",
+      "version": "6.21.0",
+      "bom-ref": "pkg:npm/undici-types@6.21.0",
+      "purl": "pkg:npm/undici-types@6.21.0",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"undici-types-6.21.0-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "turbo",
+      "version": "2.8.9",
+      "bom-ref": "pkg:npm/turbo@2.8.9",
+      "purl": "pkg:npm/turbo@2.8.9",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"turbo-2.8.9-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "turbo-linux-64",
+      "version": "2.8.9",
+      "bom-ref": "pkg:npm/turbo-linux-64@2.8.9",
+      "purl": "pkg:npm/turbo-linux-64@2.8.9",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"turbo-linux-64-2.8.9-LICENSE\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "5.9.3",
+      "bom-ref": "pkg:npm/typescript@5.9.3",
+      "purl": "pkg:npm/typescript@5.9.3",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "aav:license-source",
+          "value": "declared package metadata; not legal approval"
+        },
+        {
+          "name": "aav:preserved-license-evidence",
+          "value": "[\"typescript-5.9.3-LICENSE.txt\",\"typescript-5.9.3-ThirdPartyNoticeText.txt\"]"
+        },
+        {
+          "name": "aav:license-evidence-review",
+          "value": "[\"CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review\"]"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "aav-candidate",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/verifier@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/gateway@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/storage-sqlite@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/mcp@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/cli@0.1.0-alpha.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/verifier@0.1.0-alpha.0",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/gateway@0.1.0-alpha.0",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+        "pkg:npm/undici@7.29.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/undici@7.29.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/storage-sqlite@0.1.0-alpha.0",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/mcp@0.1.0-alpha.0",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/gateway@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+        "pkg:npm/%40modelcontextprotocol/client@2.0.0",
+        "pkg:npm/%40modelcontextprotocol/server@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40modelcontextprotocol/client@2.0.0",
+      "dependsOn": [
+        "pkg:npm/cross-spawn@7.0.6",
+        "pkg:npm/eventsource@3.0.7",
+        "pkg:npm/eventsource-parser@3.1.1",
+        "pkg:npm/jose@6.2.12",
+        "pkg:npm/pkce-challenge@5.0.1",
+        "pkg:npm/zod@4.6.5",
+        "pkg:npm/%40modelcontextprotocol/core@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/cross-spawn@7.0.6",
+      "dependsOn": [
+        "pkg:npm/path-key@3.1.1",
+        "pkg:npm/shebang-command@2.0.0",
+        "pkg:npm/which@2.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/path-key@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/shebang-command@2.0.0",
+      "dependsOn": [
+        "pkg:npm/shebang-regex@3.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/shebang-regex@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/which@2.0.2",
+      "dependsOn": [
+        "pkg:npm/isexe@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/isexe@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/eventsource@3.0.7",
+      "dependsOn": [
+        "pkg:npm/eventsource-parser@3.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/eventsource-parser@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/jose@6.2.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/pkce-challenge@5.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/zod@4.6.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/%40modelcontextprotocol/core@2.0.0",
+      "dependsOn": [
+        "pkg:npm/zod@4.6.5"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40modelcontextprotocol/server@2.0.0",
+      "dependsOn": [
+        "pkg:npm/zod@4.6.5",
+        "pkg:npm/%40modelcontextprotocol/core@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40agentactionverifier/cli@0.1.0-alpha.0",
+      "dependsOn": [
+        "pkg:npm/%40agentactionverifier/core@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/gateway@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/mcp@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/protocol@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/storage-sqlite@0.1.0-alpha.0",
+        "pkg:npm/%40agentactionverifier/verifier@0.1.0-alpha.0",
+        "pkg:npm/%40modelcontextprotocol/server@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40types/node@22.19.11",
+      "dependsOn": [
+        "pkg:npm/undici-types@6.21.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/undici-types@6.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/turbo@2.8.9",
+      "dependsOn": [
+        "pkg:npm/turbo-linux-64@2.8.9"
+      ]
+    },
+    {
+      "ref": "pkg:npm/turbo-linux-64@2.8.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/typescript@5.9.3",
+      "dependsOn": []
+    }
+  ]
+}

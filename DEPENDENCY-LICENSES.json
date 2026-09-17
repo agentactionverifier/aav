@@ -1,0 +1,476 @@
+{
+  "legalApproval": "PENDING",
+  "production": [
+    {
+      "name": "@modelcontextprotocol/client",
+      "version": "2.0.0",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "_modelcontextprotocol_client-2.0.0-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2024-2025 Model Context Protocol a Series of LF Projects, LLC."
+      ],
+      "licenseEvidenceFlags": [
+        "UPSTREAM_LICENSE_TRANSITION: HUMAN_LEGAL_REVIEW_REQUIRED",
+        "APACHE_TEXT_OR_REFERENCE_BEYOND_METADATA: HUMAN_LEGAL_REVIEW_REQUIRED",
+        "CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review"
+      ]
+    },
+    {
+      "name": "@modelcontextprotocol/core",
+      "version": "2.0.0",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "_modelcontextprotocol_core-2.0.0-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2024-2025 Model Context Protocol a Series of LF Projects, LLC."
+      ],
+      "licenseEvidenceFlags": [
+        "UPSTREAM_LICENSE_TRANSITION: HUMAN_LEGAL_REVIEW_REQUIRED",
+        "APACHE_TEXT_OR_REFERENCE_BEYOND_METADATA: HUMAN_LEGAL_REVIEW_REQUIRED",
+        "CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review"
+      ]
+    },
+    {
+      "name": "@modelcontextprotocol/server",
+      "version": "2.0.0",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "_modelcontextprotocol_server-2.0.0-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2024-2025 Model Context Protocol a Series of LF Projects, LLC."
+      ],
+      "licenseEvidenceFlags": [
+        "UPSTREAM_LICENSE_TRANSITION: HUMAN_LEGAL_REVIEW_REQUIRED",
+        "APACHE_TEXT_OR_REFERENCE_BEYOND_METADATA: HUMAN_LEGAL_REVIEW_REQUIRED",
+        "CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review"
+      ]
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "cross-spawn-7.0.6-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2018 Made With MOXY Lda <hello@moxy.studio>"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "eventsource",
+      "version": "3.0.7",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "eventsource-3.0.7-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) EventSource GitHub organisation"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "eventsource-parser",
+      "version": "3.1.1",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "eventsource-parser-3.1.1-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2026 Espen Hovlandsdal <espen@hovlandsdal.com>"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "license": "ISC",
+      "scope": "production",
+      "evidence": [
+        "isexe-2.0.0-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) Isaac Z. Schlueter and Contributors"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "jose",
+      "version": "6.2.12",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "jose-6.2.12-LICENSE.md"
+      ],
+      "copyright": [
+        "Copyright (c) 2018 Filip Skokan"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "path-key-3.1.1-license"
+      ],
+      "copyright": [
+        "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "pkce-challenge",
+      "version": "5.0.1",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "pkce-challenge-5.0.1-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2019"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "shebang-command-2.0.0-license"
+      ],
+      "copyright": [
+        "Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "shebang-regex-3.0.0-license"
+      ],
+      "copyright": [
+        "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "undici",
+      "version": "7.29.1",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "undici-7.29.1-LICENSE",
+        "undici-7.29.1-lib__web__fetch__LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) Matteo Collina and Undici contributors",
+        "Copyright (c) 2020 Ethan Arrowood"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "license": "ISC",
+      "scope": "production",
+      "evidence": [
+        "which-2.0.2-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) Isaac Z. Schlueter and Contributors"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "zod",
+      "version": "4.6.5",
+      "license": "MIT",
+      "scope": "production",
+      "evidence": [
+        "zod-4.6.5-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2025 Colin McDonnell"
+      ],
+      "licenseEvidenceFlags": []
+    }
+  ],
+  "development": [
+    {
+      "name": "@types/node",
+      "version": "22.19.11",
+      "license": "MIT",
+      "scope": "development",
+      "evidence": [
+        "_types_node-22.19.11-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) Microsoft Corporation."
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "turbo",
+      "version": "2.8.9",
+      "license": "MIT",
+      "scope": "development",
+      "evidence": [
+        "turbo-2.8.9-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2026 Vercel, Inc"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "turbo-linux-64",
+      "version": "2.8.9",
+      "license": "MIT",
+      "scope": "development",
+      "evidence": [
+        "turbo-linux-64-2.8.9-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) 2026 Vercel, Inc"
+      ],
+      "licenseEvidenceFlags": []
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "scope": "development",
+      "evidence": [
+        "typescript-5.9.3-LICENSE.txt",
+        "typescript-5.9.3-ThirdPartyNoticeText.txt"
+      ],
+      "copyright": [
+        "Copyright (c) 1991-2017 Unicode, Inc. All rights reserved.",
+        "Copyright © 2018 WHATWG (Apple, Google, Mozilla, Microsoft). This work is licensed under a Creative Commons Attribution 4.0 International License: Attribution 4.0 International",
+        "Copyright (c) 2018 The Khronos Group Inc."
+      ],
+      "licenseEvidenceFlags": [
+        "CC_BY_DOCUMENTATION_REFERENCE: artifact applicability requires human review"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "6.21.0",
+      "license": "MIT",
+      "scope": "development",
+      "evidence": [
+        "undici-types-6.21.0-LICENSE"
+      ],
+      "copyright": [
+        "Copyright (c) Matteo Collina and Undici contributors"
+      ],
+      "licenseEvidenceFlags": []
+    }
+  ],
+  "flagged": [],
+  "evidenceFiles": [
+    {
+      "package": "undici",
+      "version": "7.29.1",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "undici-7.29.1-LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+    },
+    {
+      "package": "undici",
+      "version": "7.29.1",
+      "scope": "production",
+      "sourceFile": "lib/web/fetch/LICENSE",
+      "file": "undici-7.29.1-lib__web__fetch__LICENSE",
+      "sha256": "a21d6c8d3fc631198b97e57584697f7f9c37805c71c6cf9a12e4442b40394b88"
+    },
+    {
+      "package": "@modelcontextprotocol/client",
+      "version": "2.0.0",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "_modelcontextprotocol_client-2.0.0-LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "package": "cross-spawn",
+      "version": "7.0.6",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "cross-spawn-7.0.6-LICENSE",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+    },
+    {
+      "package": "path-key",
+      "version": "3.1.1",
+      "scope": "production",
+      "sourceFile": "license",
+      "file": "path-key-3.1.1-license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "package": "shebang-command",
+      "version": "2.0.0",
+      "scope": "production",
+      "sourceFile": "license",
+      "file": "shebang-command-2.0.0-license",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3"
+    },
+    {
+      "package": "shebang-regex",
+      "version": "3.0.0",
+      "scope": "production",
+      "sourceFile": "license",
+      "file": "shebang-regex-3.0.0-license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "package": "which",
+      "version": "2.0.2",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "which-2.0.2-LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "package": "isexe",
+      "version": "2.0.0",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "isexe-2.0.0-LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "package": "eventsource",
+      "version": "3.0.7",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "eventsource-3.0.7-LICENSE",
+      "sha256": "f683a72ffe6a9675b5507af22fe0f448d8c8de3da1e14f139d370a7e6a54a23e"
+    },
+    {
+      "package": "eventsource-parser",
+      "version": "3.1.1",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "eventsource-parser-3.1.1-LICENSE",
+      "sha256": "835eb611a23301b27115ca1be9f754c876e643ceb7fe63049c6b50609a1cafeb"
+    },
+    {
+      "package": "jose",
+      "version": "6.2.12",
+      "scope": "production",
+      "sourceFile": "LICENSE.md",
+      "file": "jose-6.2.12-LICENSE.md",
+      "sha256": "8078b0829d6c3e9ecde2f003e1966e4cad3efc6e7a640efbab0313cc166b1af1"
+    },
+    {
+      "package": "pkce-challenge",
+      "version": "5.0.1",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "pkce-challenge-5.0.1-LICENSE",
+      "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d"
+    },
+    {
+      "package": "zod",
+      "version": "4.6.5",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "zod-4.6.5-LICENSE",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+    },
+    {
+      "package": "@modelcontextprotocol/core",
+      "version": "2.0.0",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "_modelcontextprotocol_core-2.0.0-LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "package": "@modelcontextprotocol/server",
+      "version": "2.0.0",
+      "scope": "production",
+      "sourceFile": "LICENSE",
+      "file": "_modelcontextprotocol_server-2.0.0-LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "package": "@types/node",
+      "version": "22.19.11",
+      "scope": "development",
+      "sourceFile": "LICENSE",
+      "file": "_types_node-22.19.11-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "package": "undici-types",
+      "version": "6.21.0",
+      "scope": "development",
+      "sourceFile": "LICENSE",
+      "file": "undici-types-6.21.0-LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+    },
+    {
+      "package": "turbo",
+      "version": "2.8.9",
+      "scope": "development",
+      "sourceFile": "LICENSE",
+      "file": "turbo-2.8.9-LICENSE",
+      "sha256": "f7ac4712aa30551de5b97b30215010515d783638107f207bcce32a85bfffc05e"
+    },
+    {
+      "package": "turbo-linux-64",
+      "version": "2.8.9",
+      "scope": "development",
+      "sourceFile": "LICENSE",
+      "file": "turbo-linux-64-2.8.9-LICENSE",
+      "sha256": "f7ac4712aa30551de5b97b30215010515d783638107f207bcce32a85bfffc05e"
+    },
+    {
+      "package": "typescript",
+      "version": "5.9.3",
+      "scope": "development",
+      "sourceFile": "LICENSE.txt",
+      "file": "typescript-5.9.3-LICENSE.txt",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "package": "typescript",
+      "version": "5.9.3",
+      "scope": "development",
+      "sourceFile": "ThirdPartyNoticeText.txt",
+      "file": "typescript-5.9.3-ThirdPartyNoticeText.txt",
+      "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c"
+    }
+  ],
+  "notices": [
+    {
+      "package": "typescript",
+      "version": "5.9.3",
+      "sourceFile": "ThirdPartyNoticeText.txt",
+      "file": "typescript-5.9.3-ThirdPartyNoticeText.txt",
+      "scope": "development",
+      "requiresHumanReview": true
+    }
+  ],
+  "closure": "seven workspace production dependency roots, frozen lockfile, installed host transitives; development-only means not in production closure"
+}

@@ -1,0 +1,25 @@
+import type { JsonValue } from '@agentactionverifier/protocol/audit';
+export type GrantConstraints = Record<string, { equals?: JsonValue; allowedValues?: JsonValue[]; numericMin?: number; numericMax?: number } | string[]>;
+export const GRANT_REASONS=['GRANT_REQUIRED','GRANT_NOT_FOUND','GRANT_REVOKED','GRANT_EXPIRED','GRANT_EXHAUSTED','GRANT_AGENT_MISMATCH','GRANT_TOOL_NOT_ALLOWED','GRANT_CONSTRAINT_FAILED'] as const;
+export type GrantReason=(typeof GRANT_REASONS)[number];
+export type GrantEvaluation={allowed:true;grantId?:string;executionCount?:number}|{allowed:false;reason:GrantReason;grantId?:string};
+export type PortableGrant={id:string;tenantId:string;agentId:string;status:string;allowedToolKeys:string[];constraints:unknown;expiresAt:Date|string;maxExecutions:number;executionCount:number};
+const forbidden=new Set(['__proto__','prototype','constructor']); const segments=(path:string)=>path.split('.');
+export function isSafePath(path:string){const parts=segments(path);return Boolean(path)&&parts.every((part)=>part&&!forbidden.has(part));}
+function valueAt(input:unknown,path:string):unknown{let current=input;for(const part of segments(path)){if(!isSafePath(part)||!current||typeof current!=='object'||Array.isArray(current)||!Object.prototype.hasOwnProperty.call(current,part))return undefined;current=(current as Record<string,unknown>)[part];}return current;}
+function leafPaths(value:unknown,prefix=''):string[]{if(!value||typeof value!=='object'||Array.isArray(value))return prefix?[prefix]:[];const result:string[]=[];for(const [key,child] of Object.entries(value)){if(forbidden.has(key))return['__unsafe__'];const path=prefix?`${prefix}.${key}`:key;const nested=leafPaths(child,path);result.push(...(nested.length?nested:[path]));}return result;}
+const same=(a:unknown,b:unknown)=>JSON.stringify(a)===JSON.stringify(b);
+export function validateConstraintShape(value:unknown):boolean{if(!value||typeof value!=='object'||Array.isArray(value))return false;for(const[path,ruleValue]of Object.entries(value)){if(path==='$allowedFields'){if(!Array.isArray(ruleValue)||!ruleValue.every((x)=>typeof x==='string'&&isSafePath(x)))return false;continue;}if(!isSafePath(path)||!ruleValue||typeof ruleValue!=='object'||Array.isArray(ruleValue))return false;const rule=ruleValue as Record<string,unknown>,keys=Object.keys(rule);if(!keys.length||keys.some((k)=>!['equals','allowedValues','numericMin','numericMax'].includes(k)))return false;if('allowedValues'in rule&&!Array.isArray(rule.allowedValues))return false;if('numericMin'in rule&&(typeof rule.numericMin!=='number'||!Number.isFinite(rule.numericMin)))return false;if('numericMax'in rule&&(typeof rule.numericMax!=='number'||!Number.isFinite(rule.numericMax)))return false;}return true;}
+export function evaluateConstraints(value:unknown,input:unknown):boolean{if(!validateConstraintShape(value))return false;const constraints=value as GrantConstraints,allowed=constraints.$allowedFields;if(allowed!==undefined&&leafPaths(input).some((actual)=>actual==='__unsafe__'||!(allowed as string[]).some((a)=>actual===a||actual.startsWith(`${a}.`))))return false;for(const[path,raw]of Object.entries(constraints)){if(path==='$allowedFields')continue;const rule=raw as {equals?:unknown;allowedValues?:unknown[];numericMin?:number;numericMax?:number},actual=valueAt(input,path);if('equals'in rule&&!same(actual,rule.equals))return false;if(rule.allowedValues!==undefined&&!rule.allowedValues.some((x)=>same(actual,x)))return false;if(rule.numericMax!==undefined&&(typeof actual!=='number'||!Number.isFinite(actual)||actual>rule.numericMax))return false;if(rule.numericMin!==undefined&&(typeof actual!=='number'||!Number.isFinite(actual)||actual<rule.numericMin))return false;}return true;}
+export function evaluateGrant(input:{grantMode:string;executionGrantId?:string;tenantId:string;agentId:string;toolKey:string;toolTenantId:string;payload:unknown;grant?:PortableGrant|null;now:Date}):GrantEvaluation{
+  if(!input.executionGrantId)return input.grantMode==='REQUIRED'?{allowed:false,reason:'GRANT_REQUIRED'}:{allowed:true};
+  const grant=input.grant;if(!grant)return{allowed:false,reason:'GRANT_NOT_FOUND'};
+  if(grant.tenantId!==input.tenantId||input.toolTenantId!==input.tenantId)return{allowed:false,reason:'GRANT_NOT_FOUND',grantId:grant.id};
+  if(grant.agentId!==input.agentId)return{allowed:false,reason:'GRANT_AGENT_MISMATCH',grantId:grant.id};
+  if(grant.status==='REVOKED')return{allowed:false,reason:'GRANT_REVOKED',grantId:grant.id};
+  if(new Date(grant.expiresAt).getTime()<=input.now.getTime()||grant.status==='EXPIRED')return{allowed:false,reason:'GRANT_EXPIRED',grantId:grant.id};
+  if(grant.executionCount>=grant.maxExecutions||grant.status==='EXHAUSTED')return{allowed:false,reason:'GRANT_EXHAUSTED',grantId:grant.id};
+  if(!grant.allowedToolKeys.includes(input.toolKey))return{allowed:false,reason:'GRANT_TOOL_NOT_ALLOWED',grantId:grant.id};
+  if(!evaluateConstraints(grant.constraints,input.payload))return{allowed:false,reason:'GRANT_CONSTRAINT_FAILED',grantId:grant.id};
+  return{allowed:true,grantId:grant.id,executionCount:grant.executionCount};
+}

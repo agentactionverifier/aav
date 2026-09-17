@@ -1,0 +1,17 @@
+services:
+  aav-local:
+    build:
+      context: ../..
+      dockerfile: Dockerfile.local
+    init: true
+    environment:
+      AAV_HOME: /data
+      AAV_AUTH_TOKEN: ${AAV_AUTH_TOKEN:?Set the one-time token from aav init}
+    volumes:
+      - aav-data:/data
+    stdin_open: true
+    tty: false
+    restart: unless-stopped
+
+volumes:
+  aav-data:

@@ -1,0 +1,46 @@
+{
+  "name": "@agentactionverifier/verifier",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "publishConfig": { "access": "public", "tag": "alpha", "registry": "https://registry.npmjs.org/" },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./verifyReceipt": {
+      "types": "./dist/verifyReceipt.d.ts",
+      "import": "./dist/verifyReceipt.js",
+      "require": "./dist/verifyReceipt.js",
+      "default": "./dist/verifyReceipt.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "pnpm build && node --test"
+  },
+  "dependencies": {
+    "@agentactionverifier/protocol": "workspace:*"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentactionverifier/aav.git",
+    "directory": "packages/verifier"
+  },
+  "description": "AAV Local verifier — runtime security for AI agent actions",
+  "homepage": "https://github.com/agentactionverifier/aav#readme",
+  "bugs": { "url": "https://github.com/agentactionverifier/aav/issues" }
+}

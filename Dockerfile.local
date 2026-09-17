@@ -1,0 +1,26 @@
+FROM node:24-bookworm-slim@sha256:2fe369e969550cde8e867afc3fe370b260140cab4a23d467074295b42163d553 AS builder
+WORKDIR /src
+RUN corepack enable
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json tsconfig.json tsconfig.base.json ./
+COPY packages ./packages
+RUN pnpm install --frozen-lockfile --ignore-scripts
+RUN pnpm --filter @agentactionverifier/cli... build
+RUN mkdir -p /packs /out && \
+    pnpm --filter @agentactionverifier/protocol pack --pack-destination /packs && \
+    pnpm --filter @agentactionverifier/core pack --pack-destination /packs && \
+    pnpm --filter @agentactionverifier/verifier pack --pack-destination /packs && \
+    pnpm --filter @agentactionverifier/gateway pack --pack-destination /packs && \
+    pnpm --filter @agentactionverifier/storage-sqlite pack --pack-destination /packs && \
+    pnpm --filter @agentactionverifier/mcp pack --pack-destination /packs && \
+    pnpm --filter @agentactionverifier/cli pack --pack-destination /packs && \
+    cd /out && npm init -y && npm install --omit=dev /packs/*.tgz
+
+FROM node:24-bookworm-slim@sha256:2fe369e969550cde8e867afc3fe370b260140cab4a23d467074295b42163d553 AS runtime
+ENV NODE_ENV=production AAV_HOME=/data
+WORKDIR /app
+COPY --from=builder --chown=node:node /out ./
+RUN mkdir -p /data && chown node:node /data
+VOLUME ["/data"]
+USER node
+ENTRYPOINT ["/app/node_modules/.bin/aav"]
+CMD ["start"]

@@ -1,0 +1,29 @@
+{
+  "name": "aav",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.29.3",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test --concurrency=1",
+    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm oss:scan && pnpm scan && pnpm docs:check",
+    "oss:scan": "node scripts/check-oss-boundaries.mjs",
+    "scan": "node scripts/candidate-check.mjs scan",
+    "docs:check": "node scripts/candidate-check.mjs docs",
+    "pack:inspect": "node scripts/candidate-check.mjs pack",
+    "compliance": "node scripts/candidate-check.mjs licenses",
+    "examples:test": "node scripts/examples-test.mjs",
+    "compose:test": "node scripts/compose-test.mjs",
+    "clean-room": "node scripts/clean-room.mjs",
+    "docker:test": "node scripts/docker-test.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.0.0",
+    "@types/node": "22.19.11",
+    "turbo": "2.8.9",
+    "typescript": "5.9.3"
+  }
+}

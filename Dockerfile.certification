@@ -1,0 +1,5 @@
+FROM node:24-bookworm-slim@sha256:2fe369e969550cde8e867afc3fe370b260140cab4a23d467074295b42163d553
+WORKDIR /aav
+RUN corepack enable
+COPY . .
+RUN pnpm install --frozen-lockfile && pnpm typecheck && pnpm test && pnpm build && pnpm verify && pnpm pack:inspect && pnpm clean-room && node scripts/release-extra.mjs && pnpm examples:test && pnpm compliance && node scripts/release-review.mjs

@@ -1,0 +1,3537 @@
+{
+  "checkedAt": "2026-09-17T16:13:47.502Z",
+  "packages": [
+    {
+      "package": "@modelcontextprotocol/client",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "npmFileCount": 85,
+      "dockerFileCount": 85,
+      "jsFiles": 24,
+      "declarationFiles": 22,
+      "maps": [
+        {
+          "file": "dist/ajvProvider-1b6pVpkg.cjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/names.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/boolSchema.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/applicability.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/dataType.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/defaults.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/keyword.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.js",
+            "../../../node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js",
+            "../../../node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/data.json",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/utils.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/schemes.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/uri.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/id.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/ref.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/ucs2length.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/pattern.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/required.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/equal.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/const.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/enum.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/contains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/properties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/not.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/if.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/format.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/metadata.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft7.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/types.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-draft-07.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/dependentRequired.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependentSchemas.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitContains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/next.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/format.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2019.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/unevaluated.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/format-annotation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2020.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/limit.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.js",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 104,
+          "embeddedSourceBytes": 279689
+        },
+        {
+          "file": "dist/ajvProvider-97rDpkRx.mjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/names.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/boolSchema.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/applicability.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/dataType.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/defaults.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/keyword.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.js",
+            "../../../node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js",
+            "../../../node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/data.json",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/utils.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/schemes.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/uri.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/id.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/ref.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/ucs2length.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/pattern.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/required.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/equal.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/const.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/enum.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/contains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/properties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/not.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/if.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/format.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/metadata.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft7.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/types.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-draft-07.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/dependentRequired.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependentSchemas.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitContains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/next.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/format.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2019.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/unevaluated.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/format-annotation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2020.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/limit.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.js",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 104,
+          "embeddedSourceBytes": 279689
+        },
+        {
+          "file": "dist/ajvProvider-FOQRM7up.d.cts.map",
+          "sources": [
+            "../../core-internal/src/validators/fastUriShim.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/json-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/jtd-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.d.ts",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 20,
+          "embeddedSourceBytes": 49505
+        },
+        {
+          "file": "dist/ajvProvider-INpkxUi1.d.mts.map",
+          "sources": [
+            "../../core-internal/src/validators/fastUriShim.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/json-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/jtd-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.d.ts",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 20,
+          "embeddedSourceBytes": 49505
+        },
+        {
+          "file": "dist/cfWorkerProvider-B3dvjU3F.cjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/deep-compare-strict.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/pointer.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/dereference.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/format.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/ucs2-length.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validate.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validator.js",
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 8,
+          "embeddedSourceBytes": 55160
+        },
+        {
+          "file": "dist/cfWorkerProvider-B3ZJEoRM.d.mts.map",
+          "sources": [
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/cfWorkerProvider-BylNJ1R5.mjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/deep-compare-strict.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/pointer.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/dereference.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/format.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/ucs2-length.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validate.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validator.js",
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 8,
+          "embeddedSourceBytes": 55160
+        },
+        {
+          "file": "dist/cfWorkerProvider-doTkZbTr.d.cts.map",
+          "sources": [
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/dialects-BGO_ZrYF.cjs.map",
+          "sources": [
+            "../../core-internal/src/validators/dialects.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 2663
+        },
+        {
+          "file": "dist/dialects-BOhdv1Fc.mjs.map",
+          "sources": [
+            "../../core-internal/src/validators/dialects.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 2663
+        },
+        {
+          "file": "dist/index-CHhhk6PQ.d.cts.map",
+          "sources": [
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/types.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/shared/inputRequiredDriver.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/wire/preload.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/index-D4xIIEF6.d.mts.map",
+          "sources": [
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/types.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/shared/inputRequiredDriver.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/wire/preload.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/index.cjs.map",
+          "sources": [
+            "../src/client/authErrors.ts",
+            "../src/client/auth.ts",
+            "../src/client/authExtensions.ts",
+            "../src/client/responseCache.ts",
+            "../src/client/authSeam.ts",
+            "../src/client/probeClassifier.ts",
+            "../src/client/versionNegotiation.ts",
+            "../src/client/client.ts",
+            "../src/client/crossAppAccess.ts",
+            "../src/client/middleware.ts",
+            "../src/client/sse.ts",
+            "../src/client/streamableHttp.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 13,
+          "embeddedSourceBytes": 451297
+        },
+        {
+          "file": "dist/index.d.cts.map",
+          "sources": [
+            "../src/client/authErrors.ts",
+            "../src/client/auth.ts",
+            "../src/client/authExtensions.ts",
+            "../src/client/probeClassifier.ts",
+            "../src/client/responseCache.ts",
+            "../src/client/versionNegotiation.ts",
+            "../src/client/client.ts",
+            "../src/client/crossAppAccess.ts",
+            "../src/client/middleware.ts",
+            "../src/client/sse.ts",
+            "../src/client/streamableHttp.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/index.d.mts.map",
+          "sources": [
+            "../src/client/authErrors.ts",
+            "../src/client/auth.ts",
+            "../src/client/authExtensions.ts",
+            "../src/client/probeClassifier.ts",
+            "../src/client/responseCache.ts",
+            "../src/client/versionNegotiation.ts",
+            "../src/client/client.ts",
+            "../src/client/crossAppAccess.ts",
+            "../src/client/middleware.ts",
+            "../src/client/sse.ts",
+            "../src/client/streamableHttp.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/index.mjs.map",
+          "sources": [
+            "../src/client/authErrors.ts",
+            "../src/client/auth.ts",
+            "../src/client/authExtensions.ts",
+            "../src/client/responseCache.ts",
+            "../src/client/authSeam.ts",
+            "../src/client/probeClassifier.ts",
+            "../src/client/versionNegotiation.ts",
+            "../src/client/client.ts",
+            "../src/client/crossAppAccess.ts",
+            "../src/client/middleware.ts",
+            "../src/client/sse.ts",
+            "../src/client/streamableHttp.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 13,
+          "embeddedSourceBytes": 451297
+        },
+        {
+          "file": "dist/shimsBrowser.cjs.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 565
+        },
+        {
+          "file": "dist/shimsBrowser.d.cts.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsBrowser.d.mts.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsBrowser.mjs.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 565
+        },
+        {
+          "file": "dist/shimsNode.cjs.map",
+          "sources": [
+            "../src/shimsNode.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 563
+        },
+        {
+          "file": "dist/shimsNode.d.cts.map",
+          "sources": [
+            "../src/shimsNode.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsNode.d.mts.map",
+          "sources": [
+            "../src/shimsNode.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsNode.mjs.map",
+          "sources": [
+            "../src/shimsNode.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 563
+        },
+        {
+          "file": "dist/shimsWorkerd.cjs.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 1008
+        },
+        {
+          "file": "dist/shimsWorkerd.d.cts.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsWorkerd.d.mts.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsWorkerd.mjs.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 1008
+        },
+        {
+          "file": "dist/src-D_zzAWoS.mjs.map",
+          "sources": [
+            "../../core-internal/src/errors/crossBundleBrand.ts",
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/wire/textFallback.ts",
+            "../../core-internal/src/wire/resultFamilies.ts",
+            "../../core-internal/src/wire/rev2025-11-25/buildSchemas.ts",
+            "../../core-internal/src/wire/rev2025-11-25/legacyWrap.ts",
+            "../../core-internal/src/wire/rev2025-11-25/registry.ts",
+            "../../core-internal/src/wire/rev2025-11-25/codec.ts",
+            "../../core-internal/src/wire/rev2026-07-28/buildSchemas.ts",
+            "../../core-internal/src/shared/resultCacheHints.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/wire/rev2026-07-28/encodeContract.ts",
+            "../../core-internal/src/wire/rev2026-07-28/inputRequired.ts",
+            "../../core-internal/src/wire/rev2026-07-28/registry.ts",
+            "../../core-internal/src/wire/rev2026-07-28/codec.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/shared/mcpParamHeaders.ts",
+            "../../core-internal/src/shared/inboundClassification.ts",
+            "../../core-internal/src/util/schema.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/elicitation.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/shared/inputRequiredDriver.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/wire/bootstrap.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/inputRequiredEngine.ts",
+            "../../../node_modules/.pnpm/content-type@1.0.5/node_modules/content-type/index.js",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/wire/preload.ts",
+            "../../core-internal/src/validators/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 42,
+          "embeddedSourceBytes": 557425
+        },
+        {
+          "file": "dist/src-NAgB4Mp8.cjs.map",
+          "sources": [
+            "../../core-internal/src/errors/crossBundleBrand.ts",
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/wire/textFallback.ts",
+            "../../core-internal/src/wire/resultFamilies.ts",
+            "../../core-internal/src/wire/rev2025-11-25/buildSchemas.ts",
+            "../../core-internal/src/wire/rev2025-11-25/legacyWrap.ts",
+            "../../core-internal/src/wire/rev2025-11-25/registry.ts",
+            "../../core-internal/src/wire/rev2025-11-25/codec.ts",
+            "../../core-internal/src/wire/rev2026-07-28/buildSchemas.ts",
+            "../../core-internal/src/shared/resultCacheHints.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/wire/rev2026-07-28/encodeContract.ts",
+            "../../core-internal/src/wire/rev2026-07-28/inputRequired.ts",
+            "../../core-internal/src/wire/rev2026-07-28/registry.ts",
+            "../../core-internal/src/wire/rev2026-07-28/codec.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/shared/mcpParamHeaders.ts",
+            "../../core-internal/src/shared/inboundClassification.ts",
+            "../../core-internal/src/util/schema.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/elicitation.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/shared/inputRequiredDriver.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/wire/bootstrap.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/inputRequiredEngine.ts",
+            "../../../node_modules/.pnpm/content-type@1.0.5/node_modules/content-type/index.js",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/util/zodCompat.ts",
+            "../../core-internal/src/wire/preload.ts",
+            "../../core-internal/src/validators/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 43,
+          "embeddedSourceBytes": 560937
+        },
+        {
+          "file": "dist/stdio.cjs.map",
+          "sources": [
+            "../src/client/stdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 10337
+        },
+        {
+          "file": "dist/stdio.d.cts.map",
+          "sources": [
+            "../src/client/stdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/stdio.d.mts.map",
+          "sources": [
+            "../src/client/stdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/stdio.mjs.map",
+          "sources": [
+            "../src/client/stdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 10337
+        },
+        {
+          "file": "dist/types-DsbMXNFL.d.cts.map",
+          "sources": [
+            "../../../node_modules/.pnpm/json-schema-typed@8.0.2/node_modules/json-schema-typed/draft_2020_12.d.ts",
+            "../../core-internal/src/validators/types.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 56926
+        },
+        {
+          "file": "dist/types-mS0yxCL0.d.mts.map",
+          "sources": [
+            "../../../node_modules/.pnpm/json-schema-typed@8.0.2/node_modules/json-schema-typed/draft_2020_12.d.ts",
+            "../../core-internal/src/validators/types.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 56926
+        }
+      ],
+      "documentation": [
+        "README.md"
+      ],
+      "standaloneExamples": [],
+      "standaloneSpecificationFiles": [],
+      "bundledSourceFiles": [],
+      "runtimeDocReferences": [],
+      "ccReferences": [
+        {
+          "file": "LICENSE",
+          "matches": [
+            {
+              "line": 1,
+              "text": "The MCP project is undergoing a licensing transition from the MIT License to the Apache License, Version 2.0 (\"Apache-2.0\"). All new code and specification contributions to the project are licensed under Apache-2.0. Documentation contributions (excluding specifications) are licensed under CC-BY-4.0."
+            },
+            {
+              "line": 212,
+              "text": "Creative Commons Attribution 4.0 International (CC-BY-4.0)"
+            },
+            {
+              "line": 215,
+              "text": "CC-BY-4.0. See https://creativecommons.org/licenses/by/4.0/legalcode for"
+            }
+          ]
+        }
+      ],
+      "differences": [],
+      "extraDockerFiles": [],
+      "files": [
+        {
+          "file": "dist/validators/ajv.cjs",
+          "bytes": 237,
+          "sha256": "3da8bf0f5826b08ddd69f04643a8b4d5fd777fa372ac0942d4f2eb718bb230da",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-1b6pVpkg.cjs",
+          "bytes": 275410,
+          "sha256": "f367647a1b7040e8901d006a54b9a81f4651f6112a371dc27e561f4dfbbb5140",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.cjs",
+          "bytes": 170,
+          "sha256": "9646ab86e6f23b3edcabf5831206cfad3ade708933b79b2977dc6c298c675b49",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-B3dvjU3F.cjs",
+          "bytes": 42048,
+          "sha256": "1659b6ee1c9d791ff8737f8ef0c0f09a8a14a07b6b771bf46b795214142f9e05",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/chunk-Bnu9O96Y.cjs",
+          "bytes": 1723,
+          "sha256": "36cac11e0ad41ced410de65f13cd7f2a91332a1eb05e93e218cc2071d169ed87",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-BGO_ZrYF.cjs",
+          "bytes": 2315,
+          "sha256": "bbc64f18bf0e13c0690390e5384df601d9a7668fcde194d61a7ae2ecece91127",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.cjs",
+          "bytes": 246150,
+          "sha256": "60dc3a0f0f1cdafcceec0baf33c71687a2f378741a6810f86752ef1be75eeca9",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.cjs",
+          "bytes": 577,
+          "sha256": "b0f932e946b9a06538ac03e85b8be1a6e46fee1e9d37b8ebd62407516beb35fa",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.cjs",
+          "bytes": 561,
+          "sha256": "9ae7f7f11a44bb34c4f924fe9885690f4d0791a7a98c1effbb9759cbbd906c4e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.cjs",
+          "bytes": 776,
+          "sha256": "4363b33d8dd524efbc66f631fa8dc2f91e33cab478195916e6c0d2a1db4bbbe1",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-NAgB4Mp8.cjs",
+          "bytes": 315184,
+          "sha256": "ce83369ea297e801df4e3a5b9347e79228ae08d31b44b6e9b5df41533a81338a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.cjs",
+          "bytes": 6381,
+          "sha256": "0e6e3d40e172af79f57dde08024c4f9bafcb67b2f4a8ad552ef7d371f5c45a65",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/ajv.d.cts",
+          "bytes": 153,
+          "sha256": "0cf85e6fb471f266b0b60bc891bc23d4bece36bd0907ae2c2c275eca5cb34348",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-FOQRM7up.d.cts",
+          "bytes": 42941,
+          "sha256": "4eddb37cf32ee51c3d980fb6acfbf5b32694af18e4cbd97db1a9f61ad3d61946",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.d.cts",
+          "bytes": 176,
+          "sha256": "a9490140c7e671bd0c621a9e50b02685c067479db0c609ab22690735e6d24c12",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-doTkZbTr.d.cts",
+          "bytes": 3586,
+          "sha256": "b5e3943bb661059f81487bf707420af3d4406b49b69c55822f9adf57b970f2be",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index-CHhhk6PQ.d.cts",
+          "bytes": 139355,
+          "sha256": "a90aa6a9f6f68c43c579fd6f8fdeb02723f50801618ef2896f1562a39d355bde",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.cts",
+          "bytes": 162291,
+          "sha256": "62bf9a2a79977aa70b75dc4b938a00f41cacc3725aed493f58a075a581556b27",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.cts",
+          "bytes": 552,
+          "sha256": "7c5d6681a3e74da336ddf5e38976b7a679fb0e2316acbfbb8459cede55f6832e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.d.cts",
+          "bytes": 541,
+          "sha256": "fce0170871031d3e438a126478ea991e5aa0cfdb8c0cdcef5fa778a7efc052f1",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.cts",
+          "bytes": 523,
+          "sha256": "3a054b83aee6fafbfa5a197b2b65a382571c104889ddb7f24e16cb10515450fd",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.cts",
+          "bytes": 3360,
+          "sha256": "7939b5d3d262427236a032da8a311765a56804cffc2023bd64cb80df91950ef3",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-DsbMXNFL.d.cts",
+          "bytes": 48660,
+          "sha256": "c17f8455f78f449102b0fa1a85ee47b53b08c27c584cc46aa4817f83551b4c73",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "package.json",
+          "bytes": 4584,
+          "sha256": "e82352cb01cda68e239b73ba7ca2065b3078fa9bb8d762e7cff04fcc5a141ccb",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-1b6pVpkg.cjs.map",
+          "bytes": 448950,
+          "sha256": "362c192abe0ffd822d0f69f23e9684e96c0c3375bdfb3f5dd81ec3240fdd763a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-97rDpkRx.mjs.map",
+          "bytes": 448931,
+          "sha256": "d6901665ca2e695a30c4b54844af6cbb07d907a2b2f6ad53b2bb4e63355459c7",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-FOQRM7up.d.cts.map",
+          "bytes": 103983,
+          "sha256": "b205efcea4dbca8a0eebad6007c8f6650b312118925ab9da3ad232c254b430a6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-INpkxUi1.d.mts.map",
+          "bytes": 103983,
+          "sha256": "5351694d27d6258f134e2d78a759076b0c5239f16794f9911b2dbf34e1464a28",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-B3dvjU3F.cjs.map",
+          "bytes": 77333,
+          "sha256": "9eb9abad08bf2120d982962930f3a7a2e8d60f76d37a49d6b0d5b22cf272ea55",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-B3ZJEoRM.d.mts.map",
+          "bytes": 290,
+          "sha256": "149cc452c8759675c9e3f2007f39bad14ad36df932a4e77ee7f297b220707b28",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-BylNJ1R5.mjs.map",
+          "bytes": 77314,
+          "sha256": "0d86b1b2e74af05389035a9724e22ec559bb758f5618f7afd5eb5ad154d14883",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-doTkZbTr.d.cts.map",
+          "bytes": 290,
+          "sha256": "b12686c5336bc00074e8dbcf747a3dbef93834b21915867445a9fdc4b21cbe79",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-BGO_ZrYF.cjs.map",
+          "bytes": 3673,
+          "sha256": "fed7400c3561ebfb45dce29df19234cde4f3d558642ef59cd7e5e0cfd3a809bf",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-BOhdv1Fc.mjs.map",
+          "bytes": 3672,
+          "sha256": "883ccbf685d9dad6dbc2cbea7d1c4fca95c8a3ed6183830b15a480e35a7721fd",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index-CHhhk6PQ.d.cts.map",
+          "bytes": 27364,
+          "sha256": "0a1d4094a3bba9cc8b76f48f9b242508533ce66975af736c73361861597b76fd",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index-D4xIIEF6.d.mts.map",
+          "bytes": 31581,
+          "sha256": "9a3afdf9bd614609d80206e431e678c77a7412f768543262fc65aa758d12332b",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.cjs.map",
+          "bytes": 546371,
+          "sha256": "902799cfb4bab25cedf25fba94f67e18ce63110c64addcb780e765ff0e881207",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.cts.map",
+          "bytes": 25920,
+          "sha256": "71338ecde99791eb9cbc48ec5d26243d727a0f9ca09660b094284cf4bf8bb3c3",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.mts.map",
+          "bytes": 25920,
+          "sha256": "48e645817281e4786536ddec9285be22d553252e492b0952d36b5100d7cb979f",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.mjs.map",
+          "bytes": 544104,
+          "sha256": "86d02e8fcd6fee11f84226cc79e3fe84cfbfbd3dfc23cb0109fb907d06105ca9",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.cjs.map",
+          "bytes": 725,
+          "sha256": "58ac7382289ce482624dd66518c61d8bfc095233a65784ce12e228721fe42485",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.cts.map",
+          "bytes": 142,
+          "sha256": "4aedeb3e61818cabe151c31c0b4987d74725ed4173b0005b6022ef59d56f5bd1",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.mts.map",
+          "bytes": 142,
+          "sha256": "3ee388bc56761215405a3d31fc834d6247b99009e9385595217c24dca01f7a3f",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.mjs.map",
+          "bytes": 725,
+          "sha256": "22f990cd5e8b032e4e6416a89659e177d30f4ff2153d154203b7438eea28a34a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.cjs.map",
+          "bytes": 717,
+          "sha256": "56e27e9ff13252a2f1a8f753f1f8304d44015e045bf2781d4e8243d918b967e6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.d.cts.map",
+          "bytes": 136,
+          "sha256": "d0755d862b89c11a4ef4c4cc95b4ae72ec36ccd7c4c9f109aa258e63901f3c02",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.d.mts.map",
+          "bytes": 136,
+          "sha256": "398620c507e9fbccbf47b15cbc56e5a26557384ca2fe1e574a4a53065dbf6834",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.mjs.map",
+          "bytes": 717,
+          "sha256": "89983a4181b8805660346278d1f48f1af3cfca7569f2ea738013c7a91d40f767",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.cjs.map",
+          "bytes": 1213,
+          "sha256": "ae2712d5cc755e5066ddd2a8e0db2bdb0e7728343c994c4176a3a52da416dc15",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.cts.map",
+          "bytes": 147,
+          "sha256": "e3235f962e0badd00bd8ce079db201a39207a8cf6ea94ada8f8b98572e9450cb",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.mts.map",
+          "bytes": 147,
+          "sha256": "962795598f1483774386d5c07f69d2105df696b9eb03a2f5c1de8154b0c70367",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.mjs.map",
+          "bytes": 1196,
+          "sha256": "2f3c72a524dcbb4a7581f8a47e5934d4a2c9b1278727f51c0d36ef7fd55f835e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-D_zzAWoS.mjs.map",
+          "bytes": 685127,
+          "sha256": "3be37dca6269ef4f9ca284d4de532de5db3570844552bfa83e9262ac193520bf",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-NAgB4Mp8.cjs.map",
+          "bytes": 691177,
+          "sha256": "cf91efff81908c6eed8df36f4849bfa72cf7ca1bfbc5f3e5e45b0aa172c89604",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.cjs.map",
+          "bytes": 13871,
+          "sha256": "a94fd738f3efa4c8acd73c3067ae71a1c2f00adda0fe9da5376ce2937ec957fb",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.cts.map",
+          "bytes": 444,
+          "sha256": "b629015d057c106a667ff098e842059bbac79bd0d51de74915a4c2f28261bdb6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.mts.map",
+          "bytes": 444,
+          "sha256": "89ac89155b9ed9f317cf614214a11ff7ab024a091c120579cfd1d7e2659c4784",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.mjs.map",
+          "bytes": 13774,
+          "sha256": "4b50b26d0fcdb5ad784da224e6686b60967ba506a2c31edcc93c68de59e75e10",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-DsbMXNFL.d.cts.map",
+          "bytes": 63565,
+          "sha256": "b3b6a21034086145ddce8f948ed0adde2d75f2a80eea015c603c1a9ac57d5647",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-mS0yxCL0.d.mts.map",
+          "bytes": 63565,
+          "sha256": "dc62f2052cd3fd94b51e993b40d751acb99c57c335b036159faba402d7ef372c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "README.md",
+          "bytes": 1365,
+          "sha256": "6283b3fc5878b1b4bd03f0377a7ba4345e71a9023fe2aafb83a44ac7c5fd3e4d",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/ajv.mjs",
+          "bytes": 154,
+          "sha256": "cf73b8f95c5cb97709132e6a59f00c1084afbcf85794d1cbca06c401da4c7001",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-97rDpkRx.mjs",
+          "bytes": 273658,
+          "sha256": "5c4d6ce22cd6f3323ebc16d2e97956eb6238d1135102f6aefb25bacf40bf14be",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.mjs",
+          "bytes": 125,
+          "sha256": "bbea475744aaba9a9ddcce2e5390f285a2310417037385995732f564d7dda97e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-BylNJ1R5.mjs",
+          "bytes": 41926,
+          "sha256": "eb39ab8996af767751fc34bea128d6b2adaef5a39cd42ec94749a091f76ab268",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/chunk-Br0eD_fh.mjs",
+          "bytes": 1426,
+          "sha256": "d4a000980e7c6a8a2ee04c12d80cf538b11e5040e8487dad7661b09d85894e74",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-BOhdv1Fc.mjs",
+          "bytes": 2107,
+          "sha256": "34447f2f5bffaab20cf5148c190137fc3129e7b23614a75a47c1db3b0994969e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.mjs",
+          "bytes": 238700,
+          "sha256": "af3ec9fcf3a70fb4681e9b3c11aa18a7ce9aca36fed9f138a6e704043695d414",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.mjs",
+          "bytes": 536,
+          "sha256": "76db20e8d9ff0415e48fdb0d79a5f3005e49782df0991b40f0712038b3a7fdbc",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.mjs",
+          "bytes": 525,
+          "sha256": "0ecec14e715e583a63940a922c0586cd7f02f9c1fdeb3eb2fada6adae0764b5c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.mjs",
+          "bytes": 730,
+          "sha256": "c1ecf2e7b8d532e525d19bdf89a250cd1b1e32679ac02f38be47a65c41df8f4b",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-D_zzAWoS.mjs",
+          "bytes": 301052,
+          "sha256": "fb539b120913afb2a469cfdd8f233b4c6aac98d7532f3172e783258aaadef084",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.mjs",
+          "bytes": 6063,
+          "sha256": "f1917f032946bb4855130aaea2f4eb0b549eabc15ccc5c094f16545fb58fc138",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/ajv.d.mts",
+          "bytes": 153,
+          "sha256": "50c5efbc9bac37c4a41dade943c7c4c2bb41a4f7e7ccbab76a051a429fdc2186",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-INpkxUi1.d.mts",
+          "bytes": 42941,
+          "sha256": "8b54bf07447fb8cfae0c19ab6bf0a410dadc09b3c83a8643c489443f74abd2d0",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.d.mts",
+          "bytes": 176,
+          "sha256": "8a8fbcd544af125ab6d1e13c3995af0546c97de75734653c767b8bfe31bee2c1",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-B3ZJEoRM.d.mts",
+          "bytes": 3586,
+          "sha256": "5f5ab202f67be6b60f6740f226bc6880c7f946ec44fa0d82de688986b89ecd12",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index-D4xIIEF6.d.mts",
+          "bytes": 139314,
+          "sha256": "deab267fc3641dc10477eddead3d97fc24dadc9ca1f684701739b23cbf5c420d",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.mts",
+          "bytes": 162291,
+          "sha256": "309cc5f76da5abff0be678d958aba0e875e52909f5f6f0544a45a34ac596cc9c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.mts",
+          "bytes": 552,
+          "sha256": "e9f87a29e4fc960275b694cb65f3f9aac333a8ac11b232381d2e5c020c82ce84",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.d.mts",
+          "bytes": 541,
+          "sha256": "e91aa4de7101c6ba31cc3de2575562ad5ddafa4ba4783e12e93d10d87b5a16b6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.mts",
+          "bytes": 523,
+          "sha256": "e5bbf2d05f750426112ee98e25d2da416e0ff797cdb862ab9dcfe9855fb8281b",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.mts",
+          "bytes": 3360,
+          "sha256": "e4d5cd9c3d183abc47f732363d1113dc7891dd4a27246c6d69d8f584261ebfd6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-mS0yxCL0.d.mts",
+          "bytes": 48660,
+          "sha256": "68680977eec3fa50b117f9c535cecd3dad9c5ad8ecdcf3d60e6c969f2fb47280",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "LICENSE",
+          "bytes": 12227,
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        }
+      ],
+      "packageExports": {
+        ".": {
+          "import": {
+            "types": "./dist/index.d.mts",
+            "default": "./dist/index.mjs"
+          },
+          "require": {
+            "types": "./dist/index.d.cts",
+            "default": "./dist/index.cjs"
+          }
+        },
+        "./stdio": {
+          "import": {
+            "types": "./dist/stdio.d.mts",
+            "default": "./dist/stdio.mjs"
+          },
+          "require": {
+            "types": "./dist/stdio.d.cts",
+            "default": "./dist/stdio.cjs"
+          }
+        },
+        "./validators/ajv": {
+          "import": {
+            "types": "./dist/validators/ajv.d.mts",
+            "default": "./dist/validators/ajv.mjs"
+          },
+          "require": {
+            "types": "./dist/validators/ajv.d.cts",
+            "default": "./dist/validators/ajv.cjs"
+          }
+        },
+        "./validators/cf-worker": {
+          "import": {
+            "types": "./dist/validators/cfWorker.d.mts",
+            "default": "./dist/validators/cfWorker.mjs"
+          },
+          "require": {
+            "types": "./dist/validators/cfWorker.d.cts",
+            "default": "./dist/validators/cfWorker.cjs"
+          }
+        },
+        "./_shims": {
+          "workerd": {
+            "import": {
+              "types": "./dist/shimsWorkerd.d.mts",
+              "default": "./dist/shimsWorkerd.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsWorkerd.d.cts",
+              "default": "./dist/shimsWorkerd.cjs"
+            }
+          },
+          "browser": {
+            "import": {
+              "types": "./dist/shimsBrowser.d.mts",
+              "default": "./dist/shimsBrowser.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsBrowser.d.cts",
+              "default": "./dist/shimsBrowser.cjs"
+            }
+          },
+          "node": {
+            "import": {
+              "types": "./dist/shimsNode.d.mts",
+              "default": "./dist/shimsNode.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsNode.d.cts",
+              "default": "./dist/shimsNode.cjs"
+            }
+          },
+          "default": {
+            "import": {
+              "types": "./dist/shimsNode.d.mts",
+              "default": "./dist/shimsNode.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsNode.d.cts",
+              "default": "./dist/shimsNode.cjs"
+            }
+          }
+        }
+      }
+    },
+    {
+      "package": "@modelcontextprotocol/core",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "npmFileCount": 21,
+      "dockerFileCount": 21,
+      "jsFiles": 6,
+      "declarationFiles": 6,
+      "maps": [
+        {
+          "file": "dist/auth-BWdKR39I.d.mts.map",
+          "sources": [
+            "../src/types.ts",
+            "../src/schemas.ts",
+            "../src/auth.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/auth-CfDMXiII.cjs.map",
+          "sources": [
+            "../src/constants.ts",
+            "../src/schemas.ts",
+            "../src/auth.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 3,
+          "embeddedSourceBytes": 102573
+        },
+        {
+          "file": "dist/auth-CUe6YdwF.mjs.map",
+          "sources": [
+            "../src/constants.ts",
+            "../src/schemas.ts",
+            "../src/auth.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 3,
+          "embeddedSourceBytes": 102573
+        },
+        {
+          "file": "dist/auth-hYtaIUZm.d.cts.map",
+          "sources": [
+            "../src/types.ts",
+            "../src/schemas.ts",
+            "../src/auth.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/internal.d.cts.map",
+          "sources": [
+            "../src/constants.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/internal.d.mts.map",
+          "sources": [
+            "../src/constants.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        }
+      ],
+      "documentation": [
+        "README.md"
+      ],
+      "standaloneExamples": [],
+      "standaloneSpecificationFiles": [],
+      "bundledSourceFiles": [],
+      "runtimeDocReferences": [],
+      "ccReferences": [
+        {
+          "file": "LICENSE",
+          "matches": [
+            {
+              "line": 1,
+              "text": "The MCP project is undergoing a licensing transition from the MIT License to the Apache License, Version 2.0 (\"Apache-2.0\"). All new code and specification contributions to the project are licensed under Apache-2.0. Documentation contributions (excluding specifications) are licensed under CC-BY-4.0."
+            },
+            {
+              "line": 212,
+              "text": "Creative Commons Attribution 4.0 International (CC-BY-4.0)"
+            },
+            {
+              "line": 215,
+              "text": "CC-BY-4.0. See https://creativecommons.org/licenses/by/4.0/legalcode for"
+            }
+          ]
+        }
+      ],
+      "differences": [],
+      "extraDockerFiles": [],
+      "files": [
+        {
+          "file": "dist/auth-CfDMXiII.cjs",
+          "bytes": 95518,
+          "sha256": "96c04c491ce6d6e654e84e94a0cf860cf6d1b0a5a0aa2ce25dbd070f2e4d6a5c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.cjs",
+          "bytes": 12909,
+          "sha256": "3570a86b6fa677842fa33f0f98349b473946dc7f914552ebd4dc736db3d4818c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/internal.cjs",
+          "bytes": 14675,
+          "sha256": "821524fc4e0c2a41bef38f5827130b7918560e485ecfbcee608f4135a80e5cba",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-hYtaIUZm.d.cts",
+          "bytes": 357907,
+          "sha256": "bdeb88023ff81711cd161d9d9aaeb793d6c8e91ec8af877dbfc802042a1d0065",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.cts",
+          "bytes": 10103,
+          "sha256": "e5988b623831d1f75acdee5ebf847ebf459c4b6b05d83bf2646226df768dfba4",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/internal.d.cts",
+          "bytes": 15862,
+          "sha256": "7668933edd63f9bca7bf620f4f09b7d1b3a27db5ba141eabe97aacbdf8dd71fd",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "package.json",
+          "bytes": 2282,
+          "sha256": "dc2e8e1fc31878b0b537b0ea034d4a11284cce20fe81f4c6ea823dd6db7e7ad5",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-BWdKR39I.d.mts.map",
+          "bytes": 25805,
+          "sha256": "6643a89f9a696257e42146c27639f6d2bebe781c6a0c3e59f1e6a6b1a35fc3f5",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-CfDMXiII.cjs.map",
+          "bytes": 131886,
+          "sha256": "2aeb2028bbaf8d734d915b2690a4d8af79e7f5d0702d39b31762c39c8e40e0c0",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-CUe6YdwF.mjs.map",
+          "bytes": 131225,
+          "sha256": "92212ffee512d7c81f4476a62062dfecb43c59292628ef51d026f4491c2de6a7",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-hYtaIUZm.d.cts.map",
+          "bytes": 25805,
+          "sha256": "b2fcef9c57b4548ec2e379e031fbd2feead6caad17327ed2f06c5a61dc9b536c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/internal.d.cts.map",
+          "bytes": 501,
+          "sha256": "3429c4aa6296bcd7b00a25015445e1b26ccf246a9a7c85d9aebd20312812848f",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/internal.d.mts.map",
+          "bytes": 501,
+          "sha256": "526b73288e627a77d09850e5b988f7f5db942662c984f3651d648f9d1ef41f40",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "README.md",
+          "bytes": 1940,
+          "sha256": "4530de68d289e00cdacc27478b501b47fd9ea5c878af95c6d809c455a9c1de9a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-CUe6YdwF.mjs",
+          "bytes": 68485,
+          "sha256": "17df1168d46e8215ad9b204b0ba5061a7ff44a787bf7a8dd8ba5b20ac4499e68",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.mjs",
+          "bytes": 10088,
+          "sha256": "e38d1b81e798b96853a7076a9511f0300ae683c9af0f3c260dc46c16bd2a7e62",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/internal.mjs",
+          "bytes": 11434,
+          "sha256": "0cc572e7ac91e9f1a36133b83a6207fdea87cb41f9531c7f406d5eca3c355dfb",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/auth-BWdKR39I.d.mts",
+          "bytes": 357907,
+          "sha256": "8f8db0f56ad6c67db412329f83818e06fb1ada29226ccb3e70e74983549581ed",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.mts",
+          "bytes": 10103,
+          "sha256": "c9f49245e701c027742011f5a7c913af34327d3cd29d5d35ef6036ff7bda9566",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/internal.d.mts",
+          "bytes": 15862,
+          "sha256": "d4d60c23ea7feb24c041d1be15e5cc26f48ec19d0c3ae415b083adf220b5d42d",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "LICENSE",
+          "bytes": 12227,
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        }
+      ],
+      "packageExports": {
+        ".": {
+          "import": {
+            "types": "./dist/index.d.mts",
+            "default": "./dist/index.mjs"
+          },
+          "require": {
+            "types": "./dist/index.d.cts",
+            "default": "./dist/index.cjs"
+          }
+        },
+        "./internal": {
+          "import": {
+            "types": "./dist/internal.d.mts",
+            "default": "./dist/internal.mjs"
+          },
+          "require": {
+            "types": "./dist/internal.d.cts",
+            "default": "./dist/internal.cjs"
+          }
+        }
+      }
+    },
+    {
+      "package": "@modelcontextprotocol/server",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "npmFileCount": 85,
+      "dockerFileCount": 85,
+      "jsFiles": 26,
+      "declarationFiles": 22,
+      "maps": [
+        {
+          "file": "dist/ajvProvider-CEoC__sr.mjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/names.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/boolSchema.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/applicability.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/dataType.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/defaults.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/keyword.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.js",
+            "../../../node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js",
+            "../../../node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/data.json",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/utils.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/schemes.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/uri.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/id.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/ref.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/ucs2length.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/pattern.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/required.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/equal.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/const.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/enum.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/contains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/properties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/not.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/if.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/format.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/metadata.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft7.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/types.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-draft-07.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/dependentRequired.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependentSchemas.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitContains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/next.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/format.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2019.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/unevaluated.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/format-annotation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2020.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/limit.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.js",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 104,
+          "embeddedSourceBytes": 279689
+        },
+        {
+          "file": "dist/ajvProvider-CgI-5L6O.d.mts.map",
+          "sources": [
+            "../../core-internal/src/validators/fastUriShim.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/json-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/jtd-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.d.ts",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 20,
+          "embeddedSourceBytes": 49505
+        },
+        {
+          "file": "dist/ajvProvider-FOQRM7up.d.cts.map",
+          "sources": [
+            "../../core-internal/src/validators/fastUriShim.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/json-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/jtd-schema.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/types/index.d.ts",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.d.ts",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.d.ts",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 20,
+          "embeddedSourceBytes": 49505
+        },
+        {
+          "file": "dist/ajvProvider-ZaoO9afR.cjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/scope.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/codegen/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/util.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/names.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/errors.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/boolSchema.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/rules.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/applicability.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/dataType.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/defaults.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/code.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/keyword.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/subschema.js",
+            "../../../node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal/index.js",
+            "../../../node_modules/.pnpm/json-schema-traverse@1.0.0/node_modules/json-schema-traverse/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/resolve.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/validate/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/validation_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/ref_error.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/compile/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/data.json",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/utils.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/lib/schemes.js",
+            "../../../node_modules/.pnpm/fast-uri@3.1.0/node_modules/fast-uri/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/uri.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/core.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/id.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/ref.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/core/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitNumber.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/multipleOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/ucs2length.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitLength.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/pattern.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/required.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/runtime/equal.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/const.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/enum.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/items2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/contains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependencies.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/properties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/not.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/anyOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/oneOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/allOf.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/if.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/thenElse.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/format.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/format/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/metadata.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft7.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/types.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/discriminator/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-draft-07.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/ajv.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/dynamicRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveAnchor.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/recursiveRef.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/dynamic/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/dependentRequired.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/applicator/dependentSchemas.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/validation/limitContains.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/next.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedProperties.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/unevaluatedItems.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/unevaluated/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/format.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2019-09/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2019.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/vocabularies/draft2020.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/schema.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/applicator.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/unevaluated.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/content.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/core.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/format-annotation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/meta-data.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/meta/validation.json",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/refs/json-schema-2020-12/index.js",
+            "../../../node_modules/.pnpm/ajv@8.18.0/node_modules/ajv/dist/2020.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/formats.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/limit.js",
+            "../../../node_modules/.pnpm/ajv-formats@3.0.1_ajv@8.18.0/node_modules/ajv-formats/dist/index.js",
+            "../../core-internal/src/validators/ajvProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 104,
+          "embeddedSourceBytes": 279689
+        },
+        {
+          "file": "dist/cfWorkerProvider-BwbPzsdI.cjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/deep-compare-strict.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/pointer.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/dereference.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/format.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/ucs2-length.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validate.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validator.js",
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 8,
+          "embeddedSourceBytes": 55160
+        },
+        {
+          "file": "dist/cfWorkerProvider-C03CSigr.d.mts.map",
+          "sources": [
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/cfWorkerProvider-doTkZbTr.d.cts.map",
+          "sources": [
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/cfWorkerProvider-p3WaZPqB.mjs.map",
+          "sources": [
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/deep-compare-strict.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/pointer.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/dereference.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/format.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/ucs2-length.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validate.js",
+            "../../../node_modules/.pnpm/@cfworker+json-schema@4.1.1/node_modules/@cfworker/json-schema/dist/esm/validator.js",
+            "../../core-internal/src/validators/cfWorkerProvider.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 8,
+          "embeddedSourceBytes": 55160
+        },
+        {
+          "file": "dist/createMcpHandler-CLhGwQTn.d.mts.map",
+          "sources": [
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/types.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/shared/inboundClassification.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/elicitation.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/shared/resultCacheHints.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/wire/preload.ts",
+            "../src/server/server.ts",
+            "../src/server/mcp.ts",
+            "../src/server/perRequestTransport.ts",
+            "../src/server/serverEventBus.ts",
+            "../src/server/createMcpHandler.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/createMcpHandler-dBHMsxwf.d.cts.map",
+          "sources": [
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/types.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/shared/inboundClassification.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/elicitation.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/shared/resultCacheHints.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/wire/preload.ts",
+            "../src/server/server.ts",
+            "../src/server/mcp.ts",
+            "../src/server/perRequestTransport.ts",
+            "../src/server/serverEventBus.ts",
+            "../src/server/createMcpHandler.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/dialects-D8eXzoGv.cjs.map",
+          "sources": [
+            "../../core-internal/src/validators/dialects.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 2663
+        },
+        {
+          "file": "dist/dialects-DoSzNhcb.mjs.map",
+          "sources": [
+            "../../core-internal/src/validators/dialects.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 2663
+        },
+        {
+          "file": "dist/index.cjs.map",
+          "sources": [
+            "../src/server/perRequestTransport.ts",
+            "../src/server/invoke.ts",
+            "../src/server/streamableHttp.ts",
+            "../src/server/createMcpHandler.ts",
+            "../src/server/middleware/bearerAuth.ts",
+            "../src/server/middleware/hostHeaderValidation.ts",
+            "../src/server/middleware/oauthMetadata.ts",
+            "../src/server/middleware/originValidation.ts",
+            "../src/server/requestStateCodec.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 10,
+          "embeddedSourceBytes": 157690
+        },
+        {
+          "file": "dist/index.d.cts.map",
+          "sources": [
+            "../src/server/completable.ts",
+            "../src/server/middleware/bearerAuth.ts",
+            "../src/server/middleware/hostHeaderValidation.ts",
+            "../src/server/middleware/oauthMetadata.ts",
+            "../src/server/middleware/originValidation.ts",
+            "../src/server/requestStateCodec.ts",
+            "../src/server/streamableHttp.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/index.d.mts.map",
+          "sources": [
+            "../src/server/completable.ts",
+            "../src/server/middleware/bearerAuth.ts",
+            "../src/server/middleware/hostHeaderValidation.ts",
+            "../src/server/middleware/oauthMetadata.ts",
+            "../src/server/middleware/originValidation.ts",
+            "../src/server/requestStateCodec.ts",
+            "../src/server/streamableHttp.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/index.mjs.map",
+          "sources": [
+            "../src/server/perRequestTransport.ts",
+            "../src/server/invoke.ts",
+            "../src/server/streamableHttp.ts",
+            "../src/server/createMcpHandler.ts",
+            "../src/server/middleware/bearerAuth.ts",
+            "../src/server/middleware/hostHeaderValidation.ts",
+            "../src/server/middleware/oauthMetadata.ts",
+            "../src/server/middleware/originValidation.ts",
+            "../src/server/requestStateCodec.ts",
+            "../src/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 10,
+          "embeddedSourceBytes": 157690
+        },
+        {
+          "file": "dist/mcp-D7GmuPnv.cjs.map",
+          "sources": [
+            "../src/server/completable.ts",
+            "../src/server/sseKeepAlive.ts",
+            "../src/server/serverEventBus.ts",
+            "../src/server/listenRouter.ts",
+            "../src/server/legacyInputRequiredShim.ts",
+            "../src/server/server.ts",
+            "../src/server/mcp.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 7,
+          "embeddedSourceBytes": 170596
+        },
+        {
+          "file": "dist/mcp-DXXb3Vv3.mjs.map",
+          "sources": [
+            "../src/server/completable.ts",
+            "../src/server/sseKeepAlive.ts",
+            "../src/server/serverEventBus.ts",
+            "../src/server/listenRouter.ts",
+            "../src/server/legacyInputRequiredShim.ts",
+            "../src/server/server.ts",
+            "../src/server/mcp.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 7,
+          "embeddedSourceBytes": 170596
+        },
+        {
+          "file": "dist/shimsBrowser.cjs.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 1019
+        },
+        {
+          "file": "dist/shimsBrowser.d.cts.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsBrowser.d.mts.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsBrowser.mjs.map",
+          "sources": [
+            "../src/shimsBrowser.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 1019
+        },
+        {
+          "file": "dist/shimsWorkerd.cjs.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 1214
+        },
+        {
+          "file": "dist/shimsWorkerd.d.cts.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsWorkerd.d.mts.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/shimsWorkerd.mjs.map",
+          "sources": [
+            "../src/shimsWorkerd.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 1214
+        },
+        {
+          "file": "dist/src-CX2iR2pK.mjs.map",
+          "sources": [
+            "../../core-internal/src/errors/crossBundleBrand.ts",
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/shared/clientCapabilityRequirements.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/wire/textFallback.ts",
+            "../../core-internal/src/wire/resultFamilies.ts",
+            "../../core-internal/src/wire/rev2025-11-25/buildSchemas.ts",
+            "../../core-internal/src/wire/rev2025-11-25/legacyWrap.ts",
+            "../../core-internal/src/wire/rev2025-11-25/registry.ts",
+            "../../core-internal/src/wire/rev2025-11-25/codec.ts",
+            "../../core-internal/src/wire/rev2026-07-28/buildSchemas.ts",
+            "../../core-internal/src/shared/resultCacheHints.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/wire/rev2026-07-28/encodeContract.ts",
+            "../../core-internal/src/wire/rev2026-07-28/inputRequired.ts",
+            "../../core-internal/src/wire/rev2026-07-28/registry.ts",
+            "../../core-internal/src/wire/rev2026-07-28/codec.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/shared/envelope.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/shared/mcpParamHeaders.ts",
+            "../../core-internal/src/shared/inboundClassification.ts",
+            "../../core-internal/src/util/schema.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/elicitation.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/shared/inputRequiredDriver.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/wire/bootstrap.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/inputRequiredEngine.ts",
+            "../../../node_modules/.pnpm/content-type@1.0.5/node_modules/content-type/index.js",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/toolNameValidation.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/util/zodCompat.ts",
+            "../../core-internal/src/wire/preload.ts",
+            "../../core-internal/src/validators/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 46,
+          "embeddedSourceBytes": 576242
+        },
+        {
+          "file": "dist/src-STyD_Vvf.cjs.map",
+          "sources": [
+            "../../core-internal/src/errors/crossBundleBrand.ts",
+            "../../core-internal/src/auth/errors.ts",
+            "../../core-internal/src/errors/sdkErrors.ts",
+            "../../core-internal/src/shared/authUtils.ts",
+            "../../core-internal/src/shared/clientCapabilityRequirements.ts",
+            "../../core-internal/src/shared/protocolEras.ts",
+            "../../core-internal/src/wire/textFallback.ts",
+            "../../core-internal/src/wire/resultFamilies.ts",
+            "../../core-internal/src/wire/rev2025-11-25/buildSchemas.ts",
+            "../../core-internal/src/wire/rev2025-11-25/legacyWrap.ts",
+            "../../core-internal/src/wire/rev2025-11-25/registry.ts",
+            "../../core-internal/src/wire/rev2025-11-25/codec.ts",
+            "../../core-internal/src/wire/rev2026-07-28/buildSchemas.ts",
+            "../../core-internal/src/shared/resultCacheHints.ts",
+            "../../core-internal/src/types/enums.ts",
+            "../../core-internal/src/types/errors.ts",
+            "../../core-internal/src/wire/rev2026-07-28/encodeContract.ts",
+            "../../core-internal/src/wire/rev2026-07-28/inputRequired.ts",
+            "../../core-internal/src/wire/rev2026-07-28/registry.ts",
+            "../../core-internal/src/wire/rev2026-07-28/codec.ts",
+            "../../core-internal/src/wire/codec.ts",
+            "../../core-internal/src/shared/envelope.ts",
+            "../../core-internal/src/types/schemas.ts",
+            "../../core-internal/src/types/guards.ts",
+            "../../core-internal/src/shared/mcpParamHeaders.ts",
+            "../../core-internal/src/shared/inboundClassification.ts",
+            "../../core-internal/src/util/schema.ts",
+            "../../core-internal/src/util/standardSchema.ts",
+            "../../core-internal/src/shared/elicitation.ts",
+            "../../core-internal/src/shared/inputRequired.ts",
+            "../../core-internal/src/shared/inputRequiredDriver.ts",
+            "../../core-internal/src/types/specTypeSchema.ts",
+            "../../core-internal/src/wire/bootstrap.ts",
+            "../../core-internal/src/shared/protocol.ts",
+            "../../core-internal/src/shared/inputRequiredEngine.ts",
+            "../../../node_modules/.pnpm/content-type@1.0.5/node_modules/content-type/index.js",
+            "../../core-internal/src/shared/mediaType.ts",
+            "../../core-internal/src/shared/metadataUtils.ts",
+            "../../core-internal/src/shared/stdio.ts",
+            "../../core-internal/src/shared/toolNameValidation.ts",
+            "../../core-internal/src/shared/transport.ts",
+            "../../core-internal/src/shared/uriTemplate.ts",
+            "../../core-internal/src/util/inMemory.ts",
+            "../../core-internal/src/util/zodCompat.ts",
+            "../../core-internal/src/wire/preload.ts",
+            "../../core-internal/src/validators/fromJsonSchema.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 46,
+          "embeddedSourceBytes": 576242
+        },
+        {
+          "file": "dist/stdio.cjs.map",
+          "sources": [
+            "../src/server/stdio.ts",
+            "../src/server/serveStdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 2,
+          "embeddedSourceBytes": 44052
+        },
+        {
+          "file": "dist/stdio.d.cts.map",
+          "sources": [
+            "../src/server/serveStdio.ts",
+            "../src/server/stdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/stdio.d.mts.map",
+          "sources": [
+            "../src/server/serveStdio.ts",
+            "../src/server/stdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 0,
+          "embeddedSourceBytes": 0
+        },
+        {
+          "file": "dist/stdio.mjs.map",
+          "sources": [
+            "../src/server/stdio.ts",
+            "../src/server/serveStdio.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 2,
+          "embeddedSourceBytes": 44052
+        },
+        {
+          "file": "dist/types-DsbMXNFL.d.cts.map",
+          "sources": [
+            "../../../node_modules/.pnpm/json-schema-typed@8.0.2/node_modules/json-schema-typed/draft_2020_12.d.ts",
+            "../../core-internal/src/validators/types.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 56926
+        },
+        {
+          "file": "dist/types-DUs7mGBv.d.mts.map",
+          "sources": [
+            "../../../node_modules/.pnpm/json-schema-typed@8.0.2/node_modules/json-schema-typed/draft_2020_12.d.ts",
+            "../../core-internal/src/validators/types.ts"
+          ],
+          "hasSourcesContent": true,
+          "embeddedSourceCount": 1,
+          "embeddedSourceBytes": 56926
+        }
+      ],
+      "documentation": [
+        "README.md"
+      ],
+      "standaloneExamples": [],
+      "standaloneSpecificationFiles": [],
+      "bundledSourceFiles": [],
+      "runtimeDocReferences": [],
+      "ccReferences": [
+        {
+          "file": "LICENSE",
+          "matches": [
+            {
+              "line": 1,
+              "text": "The MCP project is undergoing a licensing transition from the MIT License to the Apache License, Version 2.0 (\"Apache-2.0\"). All new code and specification contributions to the project are licensed under Apache-2.0. Documentation contributions (excluding specifications) are licensed under CC-BY-4.0."
+            },
+            {
+              "line": 212,
+              "text": "Creative Commons Attribution 4.0 International (CC-BY-4.0)"
+            },
+            {
+              "line": 215,
+              "text": "CC-BY-4.0. See https://creativecommons.org/licenses/by/4.0/legalcode for"
+            }
+          ]
+        }
+      ],
+      "differences": [],
+      "extraDockerFiles": [],
+      "files": [
+        {
+          "file": "dist/validators/ajv.cjs",
+          "bytes": 237,
+          "sha256": "ae62b2384c9f63688c55c9f844e3e61493e2b2d68d6480e5f51584ee095ab7d8",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-ZaoO9afR.cjs",
+          "bytes": 275410,
+          "sha256": "289d945a40218fdd3da0a020f2d0a636e5378d36287a4d7d59b32515817cb03b",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.cjs",
+          "bytes": 170,
+          "sha256": "4ed894078e4c81728443d9287222010716d218fe7fb7b94b73da1d9d7b8a97bb",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-BwbPzsdI.cjs",
+          "bytes": 42048,
+          "sha256": "f29d0117b9c6042e04afc7bd5dfc7dd304f88b84d61a33155b1ab6856374c313",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/chunk-Bnu9O96Y.cjs",
+          "bytes": 1723,
+          "sha256": "36cac11e0ad41ced410de65f13cd7f2a91332a1eb05e93e218cc2071d169ed87",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-D8eXzoGv.cjs",
+          "bytes": 2315,
+          "sha256": "9bb247d39ed372257859080cf04bc45ac0386119cd78c98ec32ccdf3fc5227fe",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.cjs",
+          "bytes": 84708,
+          "sha256": "c76c1228e92286e0a0d844ce8d5aaeef2185e50df62beb495a8f34139cc47248",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/mcp-D7GmuPnv.cjs",
+          "bytes": 90315,
+          "sha256": "b0afb7de7a8d17edc6f49e3b690afd8baf58c2fa975d1d41b29dababb8ee9f02",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.cjs",
+          "bytes": 684,
+          "sha256": "798fc14421f19c7ab4c907124134767122c0f0f8b3f9f4955a75c96841c595c4",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.cjs",
+          "bytes": 425,
+          "sha256": "cdc43bbac0b2349278c244d86ea66fc2e42dd9789cce70e73b32f121da2eede3",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.cjs",
+          "bytes": 912,
+          "sha256": "a795fe50f317d8e06128fb88ddde0cffdb9b5695cc6b602b1a8f1a8025317bd4",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-STyD_Vvf.cjs",
+          "bytes": 348065,
+          "sha256": "e942bd5edc709d40d8bfc955306a179cdee3d4d35ad236deaac19bb14ecd5ba1",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.cjs",
+          "bytes": 20864,
+          "sha256": "87793e7807897eb57c266b39280151b616204d6e66a81d4ddb250d987d189bd8",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/ajv.d.cts",
+          "bytes": 153,
+          "sha256": "0cf85e6fb471f266b0b60bc891bc23d4bece36bd0907ae2c2c275eca5cb34348",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-FOQRM7up.d.cts",
+          "bytes": 42941,
+          "sha256": "4eddb37cf32ee51c3d980fb6acfbf5b32694af18e4cbd97db1a9f61ad3d61946",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.d.cts",
+          "bytes": 176,
+          "sha256": "a9490140c7e671bd0c621a9e50b02685c067479db0c609ab22690735e6d24c12",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-doTkZbTr.d.cts",
+          "bytes": 3586,
+          "sha256": "b5e3943bb661059f81487bf707420af3d4406b49b69c55822f9adf57b970f2be",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/createMcpHandler-dBHMsxwf.d.cts",
+          "bytes": 212116,
+          "sha256": "b5630fd1b716c7cfd368239577943527b512db6b6396ba0e2422c3b3176b55ae",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.cts",
+          "bytes": 47941,
+          "sha256": "370cbd173f477e28091c1d2372b2e77f3b1f2783aa7af03f34c3a20f59274cff",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.cts",
+          "bytes": 332,
+          "sha256": "97e110cde4f64f55ca6652f9a99a6a57a072d59a52cd3d7cc848db9b0dd8e039",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.d.cts",
+          "bytes": 183,
+          "sha256": "52ce1843ad9104d6259b62e6ea5a828bca3ff41f43944b120178b8cccbee2e4c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.cts",
+          "bytes": 331,
+          "sha256": "90c09a3ccc3f821a2a13b4fb8329eaca7db6212936b6fe41de5129518203c473",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.cts",
+          "bytes": 4145,
+          "sha256": "46dfb3a1014788b8cd65006d3664fc90f0e03c2b82f51914555944de64471031",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-DsbMXNFL.d.cts",
+          "bytes": 48660,
+          "sha256": "c17f8455f78f449102b0fa1a85ee47b53b08c27c584cc46aa4817f83551b4c73",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "package.json",
+          "bytes": 4390,
+          "sha256": "ff7f23c4a4a3162a34a2cb21087e1844bb8631724d8e43aa14aaa86d3f7e07c2",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-CEoC__sr.mjs.map",
+          "bytes": 448931,
+          "sha256": "2eb52e887d5fda7dad8191f9b1adae36d8b77566cf2c8228eb2844e0358f751e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-CgI-5L6O.d.mts.map",
+          "bytes": 103983,
+          "sha256": "019e025e33e1b934e03297653c7e1f22d041a4a8286480829b279d1e3142283e",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-FOQRM7up.d.cts.map",
+          "bytes": 103983,
+          "sha256": "b205efcea4dbca8a0eebad6007c8f6650b312118925ab9da3ad232c254b430a6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-ZaoO9afR.cjs.map",
+          "bytes": 448950,
+          "sha256": "e3d4e6a5c3c13ea1ffd4ab2521c4e1357e8fc65400841f18d13595aaf785bff6",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-BwbPzsdI.cjs.map",
+          "bytes": 77333,
+          "sha256": "49f04605d1261587864f283d758d6c10bde9e24e6afe6aa8b7caeb04f14c2513",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-C03CSigr.d.mts.map",
+          "bytes": 290,
+          "sha256": "a478b8d36daf3bd5d141381a7a08428f43fb45ce0a3e0f036f20e3b0412bbb95",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-doTkZbTr.d.cts.map",
+          "bytes": 290,
+          "sha256": "b12686c5336bc00074e8dbcf747a3dbef93834b21915867445a9fdc4b21cbe79",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-p3WaZPqB.mjs.map",
+          "bytes": 77314,
+          "sha256": "ca0a6a7761ede2763af2b30e032510f9b776f7512ff49657e929bcdd9e518d3a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/createMcpHandler-CLhGwQTn.d.mts.map",
+          "bytes": 45453,
+          "sha256": "a67191899ad3dcaef60eef78a7335be606614dc560bc0ff66f0cce1ebeea0bd8",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/createMcpHandler-dBHMsxwf.d.cts.map",
+          "bytes": 41300,
+          "sha256": "00eab360df6b3e374e1e5dd5d91bf70e4d8171991e6df97b99ee18c0c23ddcf7",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-D8eXzoGv.cjs.map",
+          "bytes": 3673,
+          "sha256": "1fd0861d7af89c3a62807325b63e665e872b60db5e1ae3ea7eb1abe06e47215a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-DoSzNhcb.mjs.map",
+          "bytes": 3672,
+          "sha256": "196fc76d86a5665c7b12ad8727ac3c68d196001d7e12bea3b6a6347405036499",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.cjs.map",
+          "bytes": 195177,
+          "sha256": "fd2b49163ab84dee43ef05e0b6ea5a2f9bada86f486d55d5120a19eb7dfe6878",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.cts.map",
+          "bytes": 5556,
+          "sha256": "8b103fe983a8454a1169d9efc63e76ad602d6aa27ce5e77f2914560aefefc623",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.mts.map",
+          "bytes": 5556,
+          "sha256": "c99bd1e9fcaa6d9a6a0d48d4848d22ea817be59a25f6f89ad05a69468c616891",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.mjs.map",
+          "bytes": 193906,
+          "sha256": "1706c5bca4728c3d63a685a86890d2e5e29fa918c4371d7a3dadcc6e23eef0df",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/mcp-D7GmuPnv.cjs.map",
+          "bytes": 212068,
+          "sha256": "e9a3a4a3885a90d3b075a39041d430f256ab66cfeff9d7ce8ea7b60fc7c3a867",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/mcp-DXXb3Vv3.mjs.map",
+          "bytes": 210668,
+          "sha256": "d7dfb58b7eecce56be099afc8c2551687382e084e6465889c31c933705827915",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.cjs.map",
+          "bytes": 1308,
+          "sha256": "ada865624a8c949d6658614ea66d15ef4000a757f0ba3edc2359536b20b7f2d3",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.cts.map",
+          "bytes": 132,
+          "sha256": "fdd7c4694dd80809545327797336a1c0edef34c55698c1ecc6be75bc2250960f",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.mts.map",
+          "bytes": 132,
+          "sha256": "d2946b93ab2c6a0fcf21fe7b125657d9860a5bc092a4f60137610814d7355e78",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.mjs.map",
+          "bytes": 1308,
+          "sha256": "a2775a5299ed3c2cbda262f380e8d6ffc57f49ea51ae04c3b98010d7e9028839",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.cjs.map",
+          "bytes": 1544,
+          "sha256": "874ca2a6d3302440bb86d7f992d0c29e1f299647e8cbca75843747f2b91ea48c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.cts.map",
+          "bytes": 157,
+          "sha256": "05ebbeb159477c6befc3dc2e9d61afcb79acdced8263aeb2a08b927d8c6af387",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.mts.map",
+          "bytes": 157,
+          "sha256": "5c7841cbe695f6a53a13627606c0b89a84bdb7ac5cac61e4c6c8c360f7dffd8b",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.mjs.map",
+          "bytes": 1527,
+          "sha256": "238ebe0b0113375d68806349796ac7fd90a72de3ac4a99e421b673c77c715962",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-CX2iR2pK.mjs.map",
+          "bytes": 713015,
+          "sha256": "c1fdb7f323bc60b04d4a7fd81036694a11ef3057716a971a0502be4812de8102",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-STyD_Vvf.cjs.map",
+          "bytes": 715482,
+          "sha256": "e534ee4b83ea956ee68fba99f770a643b0ad20f6c370055546c2ca66ec667988",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.cjs.map",
+          "bytes": 55676,
+          "sha256": "f3a0e93a1bf109d7820cd306cb7222d5392e3c0045f9f38690095a1699d47d09",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.cts.map",
+          "bytes": 590,
+          "sha256": "b7e5b58374034d3c739dd7634e8e967301d3df026b69647f0cadad22e2b96fdd",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.mts.map",
+          "bytes": 590,
+          "sha256": "450d3cb53013ffa2752d8fe5544426e9ff09498c2616e057fd5fa7706e70d661",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.mjs.map",
+          "bytes": 55169,
+          "sha256": "14e430196fad888bf2d0a4d29b1a199c2c0d4501b8294dd128865689ea2bcc0c",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-DsbMXNFL.d.cts.map",
+          "bytes": 63565,
+          "sha256": "b3b6a21034086145ddce8f948ed0adde2d75f2a80eea015c603c1a9ac57d5647",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-DUs7mGBv.d.mts.map",
+          "bytes": 63565,
+          "sha256": "1fdcc511823199f7cf7d6e573e7c9a2fbc5d270f3b750e86e2acc4bc331d8577",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "README.md",
+          "bytes": 1939,
+          "sha256": "4d4d0e422447441add2842d2304b9b225e781a2917617804ad489a0206beef2a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/ajv.mjs",
+          "bytes": 154,
+          "sha256": "e796c631ef9148179ed20996066dfd2b717232a5443483aeb89284c3780e1e00",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-CEoC__sr.mjs",
+          "bytes": 273658,
+          "sha256": "218157a99879a59cdea0b720a484dfe9989fa768f3d05318c2803b61705373fa",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.mjs",
+          "bytes": 125,
+          "sha256": "e239ec4fc26053480699af8f649f78d63a160539f0a0e255cee3010a65065d36",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-p3WaZPqB.mjs",
+          "bytes": 41926,
+          "sha256": "efe2fd4b658a6022f0941cbf49c1a2a2ddb7c4cdd5bae236624350577eb40d00",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/chunk-Br0eD_fh.mjs",
+          "bytes": 1426,
+          "sha256": "d4a000980e7c6a8a2ee04c12d80cf538b11e5040e8487dad7661b09d85894e74",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/dialects-DoSzNhcb.mjs",
+          "bytes": 2107,
+          "sha256": "9340570968ae24904805bbb0ee637f9aa1a17f7d2b87c26ba8290809b4cc7080",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.mjs",
+          "bytes": 80210,
+          "sha256": "4494af7ea28b45d1655df5a67dcbd6079a50cbe382f811d82441ad2004bf4d60",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/mcp-DXXb3Vv3.mjs",
+          "bytes": 87288,
+          "sha256": "b25a912ea68ae396bb3f7367fa9fdd64231899266f1dc6e243dd3d2064c0d5af",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.mjs",
+          "bytes": 652,
+          "sha256": "3415fca8dc53c749b71099a6147aec421001d8e4bb9ded4779c70729536035d0",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.mjs",
+          "bytes": 184,
+          "sha256": "efa8ef680135a81cd4b3dadaa765ad5cf506523e410c8a9702ab6d9095869d8f",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.mjs",
+          "bytes": 875,
+          "sha256": "2288926c1a9636d78801cadfed7ed178a3dbf77cf392db3bcf44b7c45b5d443d",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/src-CX2iR2pK.mjs",
+          "bytes": 331079,
+          "sha256": "32ecc5f9aaaab5f35499fdfb11e0f1cb3f39a763d762f21e76c5cd55cc11c9c0",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.mjs",
+          "bytes": 20690,
+          "sha256": "250111cb905d14b186c585bc2c58f344bd028ec7b6748edf5d16cce6ac566683",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/ajv.d.mts",
+          "bytes": 153,
+          "sha256": "2d59cd8fdcf0bc4f25fd8b5375781d65ffc0cb9ea79be25a0e1a047845946288",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/ajvProvider-CgI-5L6O.d.mts",
+          "bytes": 42941,
+          "sha256": "e437d47cd374c025d568466fae6163feda941f54e72f875e578a90160db21eb5",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/validators/cfWorker.d.mts",
+          "bytes": 176,
+          "sha256": "52eb60cf619aa987c5dd04dbe019465ff92ccf37a514c5a59e5d8f379597aa57",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/cfWorkerProvider-C03CSigr.d.mts",
+          "bytes": 3586,
+          "sha256": "e213008a92b36cfe7a9a1914fa3666a951174ba31ab8580f14e1f3864e66fb11",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/createMcpHandler-CLhGwQTn.d.mts",
+          "bytes": 212076,
+          "sha256": "fcaea13506538c3e4c715b2aa2cc85d7c9a2d8ca211096c50f1d7e2ed0f07c9b",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/index.d.mts",
+          "bytes": 47941,
+          "sha256": "bd567330d48a7054d8f9752c4ac43025d1db463c7a02e4529f5fb5872c65f37d",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsBrowser.d.mts",
+          "bytes": 332,
+          "sha256": "d34475a6eb3d32a949945027cc8e20fb36d8d83797d2dc55f2f081b560bf6bf4",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsNode.d.mts",
+          "bytes": 183,
+          "sha256": "8ebcb34e613b0365bacf374b930df43efe214d552c298e29b3059fd6bd5b1a17",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/shimsWorkerd.d.mts",
+          "bytes": 331,
+          "sha256": "9db7a9b879f258b5b032cd1ced3b8657a7e3f4f5530acacd342fa8d4e9aecf7f",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/stdio.d.mts",
+          "bytes": 4145,
+          "sha256": "e652c3ccc6facc7bc9fa9e4cf5ca9ed4ed123f05e98aa8e72644630c3801dd06",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "dist/types-DUs7mGBv.d.mts",
+          "bytes": 48660,
+          "sha256": "c855a2b497bd04a1cd11bb09641b471a85c173ab6d94d37c790b83ebd58539f0",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        },
+        {
+          "file": "LICENSE",
+          "bytes": 12227,
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+          "presentInDocker": true,
+          "byteIdenticalInDocker": true
+        }
+      ],
+      "packageExports": {
+        ".": {
+          "import": {
+            "types": "./dist/index.d.mts",
+            "default": "./dist/index.mjs"
+          },
+          "require": {
+            "types": "./dist/index.d.cts",
+            "default": "./dist/index.cjs"
+          }
+        },
+        "./stdio": {
+          "import": {
+            "types": "./dist/stdio.d.mts",
+            "default": "./dist/stdio.mjs"
+          },
+          "require": {
+            "types": "./dist/stdio.d.cts",
+            "default": "./dist/stdio.cjs"
+          }
+        },
+        "./validators/ajv": {
+          "import": {
+            "types": "./dist/validators/ajv.d.mts",
+            "default": "./dist/validators/ajv.mjs"
+          },
+          "require": {
+            "types": "./dist/validators/ajv.d.cts",
+            "default": "./dist/validators/ajv.cjs"
+          }
+        },
+        "./validators/cf-worker": {
+          "import": {
+            "types": "./dist/validators/cfWorker.d.mts",
+            "default": "./dist/validators/cfWorker.mjs"
+          },
+          "require": {
+            "types": "./dist/validators/cfWorker.d.cts",
+            "default": "./dist/validators/cfWorker.cjs"
+          }
+        },
+        "./_shims": {
+          "workerd": {
+            "import": {
+              "types": "./dist/shimsWorkerd.d.mts",
+              "default": "./dist/shimsWorkerd.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsWorkerd.d.cts",
+              "default": "./dist/shimsWorkerd.cjs"
+            }
+          },
+          "browser": {
+            "import": {
+              "types": "./dist/shimsBrowser.d.mts",
+              "default": "./dist/shimsBrowser.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsBrowser.d.cts",
+              "default": "./dist/shimsBrowser.cjs"
+            }
+          },
+          "node": {
+            "import": {
+              "types": "./dist/shimsNode.d.mts",
+              "default": "./dist/shimsNode.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsNode.d.cts",
+              "default": "./dist/shimsNode.cjs"
+            }
+          },
+          "default": {
+            "import": {
+              "types": "./dist/shimsNode.d.mts",
+              "default": "./dist/shimsNode.mjs"
+            },
+            "require": {
+              "types": "./dist/shimsNode.d.cts",
+              "default": "./dist/shimsNode.cjs"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "aavPacks": [
+    {
+      "package": "@agentactionverifier/protocol",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/audit-chain.js",
+        "package/dist/audit.js",
+        "package/dist/canonical-json.js",
+        "package/dist/index.js",
+        "package/fixtures/audit-chain-v1.json",
+        "package/package.json",
+        "package/dist/audit-chain.d.ts.map",
+        "package/dist/audit-chain.js.map",
+        "package/dist/audit.d.ts.map",
+        "package/dist/audit.js.map",
+        "package/dist/canonical-json.d.ts.map",
+        "package/dist/canonical-json.js.map",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/dist/audit-chain.d.ts",
+        "package/dist/audit.d.ts",
+        "package/dist/canonical-json.d.ts",
+        "package/dist/index.d.ts"
+      ],
+      "includesMcpImplementationBundle": false
+    },
+    {
+      "package": "@agentactionverifier/core",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/approvals.js",
+        "package/dist/contracts.js",
+        "package/dist/credentials.js",
+        "package/dist/grants.js",
+        "package/dist/idempotency.js",
+        "package/dist/index.js",
+        "package/dist/policy.js",
+        "package/dist/risk.js",
+        "package/dist/validation.js",
+        "package/package.json",
+        "package/dist/approvals.d.ts.map",
+        "package/dist/approvals.js.map",
+        "package/dist/contracts.d.ts.map",
+        "package/dist/contracts.js.map",
+        "package/dist/credentials.d.ts.map",
+        "package/dist/credentials.js.map",
+        "package/dist/grants.d.ts.map",
+        "package/dist/grants.js.map",
+        "package/dist/idempotency.d.ts.map",
+        "package/dist/idempotency.js.map",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/dist/policy.d.ts.map",
+        "package/dist/policy.js.map",
+        "package/dist/risk.d.ts.map",
+        "package/dist/risk.js.map",
+        "package/dist/validation.d.ts.map",
+        "package/dist/validation.js.map",
+        "package/dist/approvals.d.ts",
+        "package/dist/contracts.d.ts",
+        "package/dist/credentials.d.ts",
+        "package/dist/grants.d.ts",
+        "package/dist/idempotency.d.ts",
+        "package/dist/index.d.ts",
+        "package/dist/policy.d.ts",
+        "package/dist/risk.d.ts",
+        "package/dist/validation.d.ts"
+      ],
+      "dependencies": {
+        "@agentactionverifier/protocol": "0.1.0-alpha.0"
+      },
+      "includesMcpImplementationBundle": false
+    },
+    {
+      "package": "@agentactionverifier/verifier",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/index.js",
+        "package/dist/verifyReceipt.js",
+        "package/package.json",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/dist/verifyReceipt.d.ts.map",
+        "package/dist/verifyReceipt.js.map",
+        "package/dist/index.d.ts",
+        "package/dist/verifyReceipt.d.ts"
+      ],
+      "dependencies": {
+        "@agentactionverifier/protocol": "0.1.0-alpha.0"
+      },
+      "includesMcpImplementationBundle": false
+    },
+    {
+      "package": "@agentactionverifier/gateway",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/credentials.js",
+        "package/dist/index.js",
+        "package/dist/network.js",
+        "package/package.json",
+        "package/dist/credentials.d.ts.map",
+        "package/dist/credentials.js.map",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/dist/network.d.ts.map",
+        "package/dist/network.js.map",
+        "package/dist/credentials.d.ts",
+        "package/dist/index.d.ts",
+        "package/dist/network.d.ts"
+      ],
+      "dependencies": {
+        "undici": "^7.29.0",
+        "@agentactionverifier/core": "0.1.0-alpha.0",
+        "@agentactionverifier/protocol": "0.1.0-alpha.0"
+      },
+      "includesMcpImplementationBundle": false
+    },
+    {
+      "package": "@agentactionverifier/storage-sqlite",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/index.js",
+        "package/package.json",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/dist/index.d.ts"
+      ],
+      "dependencies": {
+        "@agentactionverifier/core": "0.1.0-alpha.0",
+        "@agentactionverifier/protocol": "0.1.0-alpha.0"
+      },
+      "includesMcpImplementationBundle": false
+    },
+    {
+      "package": "@agentactionverifier/mcp",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/index.js",
+        "package/package.json",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/dist/index.d.ts"
+      ],
+      "dependencies": {
+        "@modelcontextprotocol/client": "2.0.0",
+        "@modelcontextprotocol/server": "2.0.0",
+        "@agentactionverifier/core": "0.1.0-alpha.0",
+        "@agentactionverifier/gateway": "0.1.0-alpha.0",
+        "@agentactionverifier/protocol": "0.1.0-alpha.0"
+      },
+      "includesMcpImplementationBundle": false
+    },
+    {
+      "package": "@agentactionverifier/cli",
+      "version": "0.1.0-alpha.0",
+      "files": [
+        "package/LICENSE",
+        "package/dist/bin.js",
+        "package/dist/config.js",
+        "package/dist/index.js",
+        "package/package.json",
+        "package/dist/bin.d.ts.map",
+        "package/dist/bin.js.map",
+        "package/dist/config.d.ts.map",
+        "package/dist/config.js.map",
+        "package/dist/index.d.ts.map",
+        "package/dist/index.js.map",
+        "package/README.md",
+        "package/dist/bin.d.ts",
+        "package/dist/config.d.ts",
+        "package/dist/index.d.ts"
+      ],
+      "dependencies": {
+        "@modelcontextprotocol/server": "2.0.0",
+        "@agentactionverifier/core": "0.1.0-alpha.0",
+        "@agentactionverifier/gateway": "0.1.0-alpha.0",
+        "@agentactionverifier/protocol": "0.1.0-alpha.0",
+        "@agentactionverifier/storage-sqlite": "0.1.0-alpha.0",
+        "@agentactionverifier/verifier": "0.1.0-alpha.0",
+        "@agentactionverifier/mcp": "0.1.0-alpha.0"
+      },
+      "includesMcpImplementationBundle": false
+    }
+  ],
+  "legalApproval": "PENDING",
+  "image": {
+    "tag": "aav-local:license-cleanup",
+    "id": "sha256:1c24d0d3a08b391a8863e580d56ab5446db12073c1174aa874d82089af36fb06"
+  },
+  "bundledVendorMetadata": [
+    {
+      "package": "ajv",
+      "version": "8.18.0",
+      "declaredLicense": "MIT",
+      "npmMetadata": "https://registry.npmjs.org/ajv/8.18.0",
+      "tarball": "https://registry.npmjs.org/ajv/-/ajv-8.18.0.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    },
+    {
+      "package": "fast-deep-equal",
+      "version": "3.1.3",
+      "declaredLicense": "MIT",
+      "npmMetadata": "https://registry.npmjs.org/fast-deep-equal/3.1.3",
+      "tarball": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    },
+    {
+      "package": "json-schema-traverse",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "npmMetadata": "https://registry.npmjs.org/json-schema-traverse/1.0.0",
+      "tarball": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    },
+    {
+      "package": "fast-uri",
+      "version": "3.1.0",
+      "declaredLicense": "BSD-3-Clause",
+      "npmMetadata": "https://registry.npmjs.org/fast-uri/3.1.0",
+      "tarball": "https://registry.npmjs.org/fast-uri/-/fast-uri-3.1.0.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    },
+    {
+      "package": "ajv-formats",
+      "version": "3.0.1",
+      "declaredLicense": "MIT",
+      "npmMetadata": "https://registry.npmjs.org/ajv-formats/3.0.1",
+      "tarball": "https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    },
+    {
+      "package": "@cfworker/json-schema",
+      "version": "4.1.1",
+      "declaredLicense": "MIT",
+      "npmMetadata": "https://registry.npmjs.org/@cfworker%2fjson-schema/4.1.1",
+      "tarball": "https://registry.npmjs.org/@cfworker/json-schema/-/json-schema-4.1.1.tgz",
+      "integrityVerified": true,
+      "evidence": [],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance",
+      "upstreamLicenseEvidence": "https://github.com/cfworker/cfworker/blob/5409fdc2bd144f68e8b28c61c71fcb16600000a6/LICENSE.md"
+    },
+    {
+      "package": "content-type",
+      "version": "1.0.5",
+      "declaredLicense": "MIT",
+      "npmMetadata": "https://registry.npmjs.org/content-type/1.0.5",
+      "tarball": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    },
+    {
+      "package": "json-schema-typed",
+      "version": "8.0.2",
+      "declaredLicense": "BSD-2-Clause",
+      "npmMetadata": "https://registry.npmjs.org/json-schema-typed/8.0.2",
+      "tarball": "https://registry.npmjs.org/json-schema-typed/-/json-schema-typed-8.0.2.tgz",
+      "integrityVerified": true,
+      "evidence": [
+        "package/LICENSE.md"
+      ],
+      "noticeFiles": [],
+      "metadataInterpretation": "Versions observed in map paths; metadata of vendor package is supporting evidence, not a proof of upstream bundled license compliance"
+    }
+  ],
+  "scope": "Observed tarballs, seven AAV packs and identified existing Docker image; no legal sufficiency conclusion or runtime modification."
+}

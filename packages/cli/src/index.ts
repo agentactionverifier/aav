@@ -1,0 +1,2 @@
+export const CLI_VERSION='0.1.0-alpha.0';
+export const EXIT={SUCCESS:0,USAGE:2,CONFIG:3,SECURITY:4,RUNTIME:5,VERIFICATION:6} as const;

@@ -1,0 +1,11 @@
+.git
+.env*
+**/node_modules
+**/dist
+**/.turbo
+**/*.db
+**/*.db-wal
+**/*.db-shm
+**/*.tgz
+.aav
+packs
